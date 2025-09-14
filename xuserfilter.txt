@@ -32,4 +32,12 @@ x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 
 ! www.youtube.com (PC) ublock
 ! ホーム
+youtube.com##[page-subtype="home"] [id="masthead-ad"]
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(yt-lockup-view-model)
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(a[href^="/shorts/"])
+! 動画
+youtube.com##ytd-watch-flexy [id="player-ads"]
+youtube.com##ytd-watch-flexy ytd-rich-item-renderer:has(yt-lockup-view-model)
+youtube.com##ytd-watch-flexy ytd-compact-video-renderer
 
