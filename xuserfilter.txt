@@ -2,7 +2,7 @@
 ! おすすめユーザー
 x.com##[aria-label^=タイムライン][aria-label$="さんのポスト"]  [data-testid="cellInnerDiv"]:is(:has(+div [aria-label^="フォロー "][role="button"]),:has([aria-label^="フォロー "][role="button"]),:has(a[href^="/i/connect_people?"]),:has(a[href^="/i/connect_people?"])+div:has(>div>div:empty))
 ! 広告
-x.com#?#[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:has-text(/プロモーション/))
+x.com#?#[data-testid="cellInnerDiv"]:has([data-testid="tweet"]:has(div:has-text(/プロモーション/)))
 ! Grok
 x.com##a[href="/i/grok"]
 ! コミュニティ
@@ -16,4 +16,4 @@ x.com##a[href="/jobs"]
 
 ! x.com adguard
 ! 広告
-x.com#?#[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:contains(/プロモーション/))
+x.com#?#[data-testid="cellInnerDiv"]:has([data-testid="tweet"]:has(div:contains(/プロモーション/)))
