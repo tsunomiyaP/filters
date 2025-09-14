@@ -43,11 +43,11 @@ youtube.com##[class="style-scope ytd-search"] ytd-video-renderer:has(a[href*="/s
 youtube.com##[class="style-scope ytd-search"] ytd-horizontal-card-list-renderer
 ! m.youtube.com (モバイル) ublock
 ! ホーム
-youtube.com##[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
-youtube.com##[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
-youtube.com##[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
-youtube.com##[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(grid-shelf-view-model)
-youtube.com##[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
+youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
+youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
+youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
+youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(grid-shelf-view-model)
+youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
 ! 動画
 youtube.com##ytm-watch ytm-item-section-renderer:has(ad-slot-renderer)
 youtube.com##ytm-watch ytm-item-section-renderer:has(ytm-reel-shelf-renderer)
