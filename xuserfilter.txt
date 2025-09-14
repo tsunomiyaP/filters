@@ -41,6 +41,7 @@ youtube.com##ytd-watch-flexy [id="player-ads"]
 youtube.com##ytd-watch-flexy ytd-rich-item-renderer:has(yt-lockup-view-model)
 youtube.com##ytd-watch-flexy ytd-compact-video-renderer
 ! m.youtube.com (モバイル) ublock
+youtube.com##div[role="tab"]:has-text(/ショート/)
 ! ホーム
 youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
 youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
