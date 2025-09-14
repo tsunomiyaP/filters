@@ -2,7 +2,9 @@
 ! おすすめユーザー
 x.com##[data-testid="cellInnerDiv"]:is(:has(h2[role="heading"][class="css-175oi2r r-18u37iz r-7cikom"]),:has(button[data-testid="UserCell"]),:has(a[href*="/i/connect_people"][role="link"]))
 ! 広告
-! x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/)
+x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/)
+! adguard
+! x.com##[data-testid="cellInnerDiv"]:contains(/プロモーション|Promotion/)
 ! Grok
 x.com##a[href="/i/grok"]
 ! コミュニティ
@@ -25,11 +27,6 @@ x.com##[data-testid="GrokDrawer"]
 x.com##[data-testid="DMDrawer"]
 ! リツイート
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
-
-! x.com adguard
-! 広告
-x.com##[data-testid="cellInnerDiv"]:contains(/プロモーション|Promotion/)
-
 ! www.youtube.com (PC) ublock
 ! ホーム
 youtube.com##[page-subtype="home"] [id="masthead-ad"]
@@ -51,4 +48,4 @@ youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
 ! ショートタブ
 ! youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
 ! adguard
-youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
+! youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
