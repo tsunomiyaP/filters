@@ -43,7 +43,7 @@ youtube.com##[class="style-scope ytd-search"] ytd-video-renderer:has(a[href*="/s
 youtube.com##[class="style-scope ytd-search"] ytd-horizontal-card-list-renderer
 ! m.youtube.com (モバイル) ublock
 ! ホーム
-youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ad-slot-renderer)
+youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
 youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
 youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
 youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(grid-shelf-view-model)
