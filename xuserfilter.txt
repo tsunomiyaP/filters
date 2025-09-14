@@ -45,3 +45,4 @@ www.youtube.com##ytd-watch-flexy ytd-compact-video-renderer
 ! ホーム
 m.youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
 m.youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
+m.youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(a[href^="/shorts/"])
