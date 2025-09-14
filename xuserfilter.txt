@@ -4,9 +4,6 @@ x.com##[aria-label^=タイムライン][aria-label$="さんのポスト"]  [data
 ! おすすめだけ非表示
 x.com##[aria-label="ホームタイムライン"] > div:first-child > div:first-child > div:first-child > nav > div > div:nth-child(2) > div > div:first-child
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:has-text(/プロモーション/))
-x.com##[aria-label="タイムライン: 話題を検索"] > div > div
-x.com##[data-testid="cellInnerDiv"]:has([data-testid="trend"]):style(display: initial !important)
-x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:has(h2 > div > span:has-text(トレンド)):style(display: initial !important)
 
 ! x.com adguard
-[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:contains(/プロモーション/))
+x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:contains(/プロモーション/))
