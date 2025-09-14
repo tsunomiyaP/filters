@@ -13,6 +13,12 @@ x.com##a[href="/i/premium_sign_up"]
 x.com##a[href="/i/verified-orgs-signup"]
 ! 求人
 x.com##a[href="/jobs"]
+! サイドバー
+x.com##[aria-label="トレンド"]>div>div>div:has(a[href="/i/premium_sign_up"])
+x.com##[aria-label="トレンド"] div:has(>section>div[aria-label="タイムライン: 速報"])
+x.com##[aria-label="トレンド"]>div>div>div:has(aside[aria-label="おすすめユーザー"])
+x.com##[aria-label="トレンド"]>div>div:has([aria-label="関連性の高いアカウント"])
+x.com##nav[aria-label="フッター"]
 
 ! x.com adguard
 ! 広告
