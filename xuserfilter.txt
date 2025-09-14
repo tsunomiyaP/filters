@@ -28,4 +28,4 @@ x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 
 ! x.com adguard
 ! 広告
-x.com##[data-testid="cellInnerDiv"]:contains(/プロモーション|Promotion/)
+! x.com##[data-testid="cellInnerDiv"]:contains(/プロモーション|Promotion/)
