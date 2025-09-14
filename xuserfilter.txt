@@ -30,6 +30,7 @@ x.com##[data-testid="DMDrawer"]
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 ! www.youtube.com (PC) ublock
 ! ホーム
+youtube.com##[page-subtype="home"] div[id="primary"]>ytd-rich-grid-renderer:has(ytd-ad-slot-renderer)
 youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 検索
 youtube.com##[class="style-scope ytd-search"] ytd-ad-slot-renderer
