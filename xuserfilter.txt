@@ -49,6 +49,6 @@ youtube.com##ytm-search grid-shelf-view-model
 youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
 ! ショートタブ
 ! youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
-youtube.com##ytm-pivot-bar-renderer[role="tablist"]:nth-child(1)
+youtube.com##ytm-pivot-bar-renderer[role="tablist"]:nth-of-type(2)
 ! adguard
 ! youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
