@@ -1,8 +1,8 @@
 ! x.com ublock
 ! おすすめユーザー
-x.com##[aria-label^=タイムライン][aria-label$="さんのポスト"]  [data-testid="cellInnerDiv"]:is(:has(+div [aria-label^="フォロー "][role="button"]),:has([aria-label^="フォロー "][role="button"]),:has(a[href^="/i/connect_people?"]),:has(a[href^="/i/connect_people?"])+div:has(>div>div:empty))
+x.com##[data-testid="cellInnerDiv"]:is(:has(h2[role="heading"][class="css-175oi2r r-18u37iz r-7cikom"]),:has(button[data-testid="UserCell"]),:has(a[href*="/i/connect_people"][role="link"]))
 ! 広告
-x.com##[data-testid="tweet"]:has-text(/プロモーション|Promotion/))
+x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/))
 ! Grok
 x.com##a[href="/i/grok"]
 ! コミュニティ
