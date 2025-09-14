@@ -32,19 +32,19 @@ x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 
 ! www.youtube.com (PC) ublock
 ! ホーム
-www.youtube.com##[page-subtype="home"] [id="masthead-ad"]
-www.youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
-www.youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(yt-lockup-view-model)
-www.youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(a[href^="/shorts/"])
+youtube.com##[page-subtype="home"] [id="masthead-ad"]
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(yt-lockup-view-model)
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(a[href^="/shorts/"])
 ! 動画
-www.youtube.com##ytd-watch-flexy [id="player-ads"]
-www.youtube.com##ytd-watch-flexy ytd-rich-item-renderer:has(yt-lockup-view-model)
-www.youtube.com##ytd-watch-flexy ytd-compact-video-renderer
+youtube.com##ytd-watch-flexy [id="player-ads"]
+youtube.com##ytd-watch-flexy ytd-rich-item-renderer:has(yt-lockup-view-model)
+youtube.com##ytd-watch-flexy ytd-compact-video-renderer
 
 ! m.youtube.com (モバイル) ublock
 ! ホーム
-m.youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
-m.youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
+youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
+youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
 ! 検索
-m.youtube.com##ytm-search grid-shelf-view-model
-m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
+youtube.com##ytm-search grid-shelf-view-model
+youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
