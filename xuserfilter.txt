@@ -3,7 +3,7 @@ x.com##[aria-label^=タイムライン][aria-label$="さんのポスト"]  [data
 ! x.com##[aria-label="ホームタイムライン"] > div:first-child:has(> div:first-child > div:first-child > nav > div > div:nth-child(2) > div > div:first-child)
 ! おすすめだけ非表示
 x.com##[aria-label="ホームタイムライン"] > div:first-child > div:first-child > div:first-child > nav > div > div:nth-child(2) > div > div:first-child
-x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"] :has-text(/プロモーション/))
+x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:has-text(/プロモーション/))
 
 ! x.com adguard
-[data-testid="cellInnerDiv"]:has([data-testid="tweet"] :contains(/プロモーション/))
+[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:contains(/プロモーション/))
