@@ -47,4 +47,4 @@ m.youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-rend
 m.youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
 ! 検索
 m.youtube.com##ytm-search grid-shelf-view-model
-m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href^="/shorts/"])
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
