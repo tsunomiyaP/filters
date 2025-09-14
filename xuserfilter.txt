@@ -28,3 +28,28 @@ x.com##[data-testid="GrokDrawer"]
 x.com##[data-testid="DMDrawer"]
 ! リツイート
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
+! www.youtube.com (PC) ublock
+! ホーム
+youtube.com##[page-subtype="home"] [id="masthead-ad"]
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(yt-lockup-view-model)
+youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(a[href^="/shorts/"])
+! 検索
+youtube.com##[class="style-scope ytd-search"] ytd-ad-slot-renderer
+youtube.com##[class="style-scope ytd-search"] grid-shelf-view-model
+youtube.com##[class="style-scope ytd-search"] ytd-video-renderer:has(a[href*="/shorts/"])
+youtube.com##[class="style-scope ytd-search"] ytd-horizontal-card-list-renderer
+! m.youtube.com (モバイル) ublock
+! ホーム
+youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
+youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
+youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(grid-shelf-view-model)
+youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
+! 検索
+youtube.com##ytm-search grid-shelf-view-model
+youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
+! ショートタブ
+youtube.com##ytm-pivot-bar-item-renderer:has(div[class="pivot-bar-item-tab pivot-shorts"])
+! youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
+! adguard
+! youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
