@@ -45,4 +45,5 @@ www.youtube.com##ytd-watch-flexy ytd-compact-video-renderer
 ! ホーム
 m.youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
 m.youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
-m.youtube.com##[tab-title="ホーム"] grid-shelf-view-model
+! 検索
+m.youtube.com##ytm-search grid-shelf-view-model
