@@ -23,6 +23,8 @@ x.com##nav[aria-label="フッター"]
 x.com##[data-testid="GrokDrawer"]
 ! DM
 x.com##[data-testid="DMDrawer"]
+! リツイート
+x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"]:has([data-testid="socialContext"]))
 
 ! x.com adguard
 ! 広告
