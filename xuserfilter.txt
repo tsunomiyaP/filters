@@ -1,8 +1,7 @@
 ! x.com ublock
+! おすすめユーザー
 x.com##[aria-label^=タイムライン][aria-label$="さんのポスト"]  [data-testid="cellInnerDiv"]:is(:has(+div [aria-label^="フォロー "][role="button"]),:has([aria-label^="フォロー "][role="button"]),:has(a[href^="/i/connect_people?"]),:has(a[href^="/i/connect_people?"])+div:has(>div>div:empty))
-! x.com##[aria-label="ホームタイムライン"] > div:first-child:has(> div:first-child > div:first-child > nav > div > div:nth-child(2) > div > div:first-child)
-! おすすめだけ非表示
-x.com##[aria-label="ホームタイムライン"] > div:first-child > div:first-child > div:first-child > nav > div > div:nth-child(2) > div > div:first-child
+! 広告
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:has-text(/プロモーション/))
 ! Grok
 x.com##a[href="/i/grok"]
@@ -16,4 +15,5 @@ x.com##a[href="/i/verified-orgs-signup"]
 x.com##a[href="/jobs"]
 
 ! x.com adguard
+! 広告
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="tweet"] div:contains(/プロモーション/))
