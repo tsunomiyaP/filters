@@ -19,6 +19,10 @@ x.com##[aria-label="トレンド"] div:has(>section>div[aria-label="タイムラ
 x.com##[aria-label="トレンド"]>div>div>div:has(aside[aria-label="おすすめユーザー"])
 x.com##[aria-label="トレンド"]>div>div:has([aria-label="関連性の高いアカウント"])
 x.com##nav[aria-label="フッター"]
+! Grok メッセージ
+x.com##[data-testid="GrokDrawer"]
+! DM
+x.com##[data-testid="DMDrawer"]
 
 ! x.com adguard
 ! 広告
