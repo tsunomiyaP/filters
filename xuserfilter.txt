@@ -2,7 +2,7 @@
 ! おすすめユーザー
 x.com##[data-testid="cellInnerDiv"]:is(:has(h2[role="heading"][class="css-175oi2r r-18u37iz r-7cikom"]),:has(button[data-testid="UserCell"]),:has(a[href*="/i/connect_people"][role="link"]))
 ! 広告
-x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/))
+x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/)
 ! Grok
 x.com##a[href="/i/grok"]
 ! コミュニティ
@@ -41,7 +41,6 @@ youtube.com##ytd-watch-flexy [id="player-ads"]
 youtube.com##ytd-watch-flexy ytd-rich-item-renderer:has(yt-lockup-view-model)
 youtube.com##ytd-watch-flexy ytd-compact-video-renderer
 ! m.youtube.com (モバイル) ublock
-youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/))
 ! ホーム
 youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
 youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
@@ -49,3 +48,5 @@ youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(grid-shelf-vi
 ! 検索
 youtube.com##ytm-search grid-shelf-view-model
 youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
+! ショートタブ
+youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
