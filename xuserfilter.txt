@@ -2,7 +2,7 @@
 ! おすすめユーザー
 x.com##[data-testid="cellInnerDiv"]:is(:has(h2[role="heading"][class="css-175oi2r r-18u37iz r-7cikom"]),:has(button[data-testid="UserCell"]),:has(a[href*="/i/connect_people"][role="link"]))
 ! 広告
-x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/))
+x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/)
 ! Grok
 x.com##a[href="/i/grok"]
 ! コミュニティ
