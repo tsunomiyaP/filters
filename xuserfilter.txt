@@ -37,6 +37,4 @@ www.youtube.com##[page-subtype="home"] div#contents ytd-rich-item-renderer:has(y
 www.youtube.com##[page-subtype="home"] div#contents ytd-rich-item-renderer:has(yt-lockup-view-model)
 www.youtube.com##[page-subtype="home"] div#contents ytd-rich-item-renderer:has(a[href^="/shorts/"])
 ! 動画
-www.youtube.com##ytd-watch-flexy [id="player-ads"]
-www.youtube.com##ytd-watch-flexy ytd-rich-item-renderer:has(yt-lockup-view-model)
-www.youtube.com##ytd-watch-flexy ytd-compact-video-renderer
+
