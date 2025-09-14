@@ -27,6 +27,7 @@ x.com##[data-testid="GrokDrawer"]
 x.com##[data-testid="DMDrawer"]
 ! リツイート
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
+! 
 ! www.youtube.com (PC) ublock
 ! ホーム
 youtube.com##[page-subtype="home"] [id="masthead-ad"]
