@@ -30,10 +30,7 @@ x.com##[data-testid="DMDrawer"]
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 ! www.youtube.com (PC) ublock
 ! ホーム
-youtube.com##[page-subtype="home"] [id="masthead-ad"]
-youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
-youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(yt-lockup-view-model)
-youtube.com##[page-subtype="home"] div#contents>ytd-rich-item-renderer:has(a[href^="/shorts/"])
+youtube.com##[page-subtype="home"] ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 検索
 youtube.com##[class="style-scope ytd-search"] ytd-ad-slot-renderer
 youtube.com##[class="style-scope ytd-search"] grid-shelf-view-model
