@@ -44,3 +44,4 @@ youtube.com##ytd-watch-flexy ytd-compact-video-renderer
 ! m.youtube.com (モバイル) ublock
 ! ホーム
 youtube.com##[tab-title="ホーム"] ytm-rich-item-renderer:has(ytm-radio-renderer)
+youtube.com##[tab-title="ホーム"] ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
