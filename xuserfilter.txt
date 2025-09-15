@@ -48,6 +48,7 @@ www.youtube.com##[class="style-scope ytd-search"] ytd-horizontal-card-list-rende
 www.youtube.com##[page-subtype="channels"] yt-tab-shape[tab-title="ショート"]
 ! m.youtube.com (モバイル) ublock
 ! ホーム
+m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-statement-banner-renderer
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer
