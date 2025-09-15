@@ -18,7 +18,7 @@ x.com##a[href="/i/verified-orgs-signup"]
 x.com##a[href="/jobs"]
 ! サイドバー
 x.com##[aria-label="トレンド"]>div>div>div:not(:has(form[aria-label="検索"], div[class="css-175oi2r r-h3s6tt"]))
-x.com##[aria-label="トレンド"]>div:not(:has(form[aria-label="検索"], div[class="css-175oi2r r-h3s6tt"]))
+x.com##[aria-label="トレンド"]>div>div:not(:has(form[aria-label="検索"], div[class="css-175oi2r r-h3s6tt"]))
 ! x.com##[aria-label="トレンド"]>div>div>div:has(div[data-testid="news_sidebar"])
 ! x.com##[aria-label="トレンド"]>div>div>div:has(section>div[aria-label="タイムライン: 速報"])
 ! x.com##[aria-label="トレンド"]>div>div>div:has(aside[aria-label="おすすめユーザー"])
