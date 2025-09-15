@@ -32,6 +32,7 @@ x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 ! ホーム
 www.youtube.com##[page-subtype="home"] div[id="primary"] div[id="masthead-ad"]:has(ytd-ad-slot-renderer)
 www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
+www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(a[href*="start_radio=1"])
 www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 動画
 www.youtube.com##div[class="style-scope ytd-watch-flexy"] div[id="related"]>div[id="player-ads"]
