@@ -35,8 +35,8 @@ www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer
 www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(a[href*="&list="])
 www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 動画
-www.youtube.com##div[class="style-scope ytd-watch-flexy"] div[id="related"]>div[id="player-ads"]
-www.youtube.com##div[class="style-scope ytd-watch-flexy"] ytd-rich-item-renderer:has(yt-lockup-view-model)
+www.youtube.com##div[id="columns"][class="style-scope ytd-watch-flexy"] div[id="related"]>div[id="player-ads"]
+www.youtube.com##div[id="columns"][class="style-scope ytd-watch-flexy"] ytd-rich-item-renderer:has(yt-lockup-view-model)
 ! 検索
 www.youtube.com##[class="style-scope ytd-search"] ytd-ad-slot-renderer
 www.youtube.com##[class="style-scope ytd-search"] grid-shelf-view-model
