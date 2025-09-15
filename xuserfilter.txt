@@ -30,7 +30,7 @@ x.com##[data-testid="DMDrawer"]
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 ! www.youtube.com (PC) ublock
 ! ホーム
-www.youtube.com##[page-subtype="home"] div[id="primary"]>ytd-rich-grid-renderer>ytd-statement-banner-renderer
+www.youtube.com##[page-subtype="home"] div[id="primary"]>ytd-rich-grid-renderer>div[id="big-yoodle"]>ytd-statement-banner-renderer
 www.youtube.com##[page-subtype="home"] div[id="primary"] div[id="masthead-ad"]:has(ytd-ad-slot-renderer)
 www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
 www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(a[href*="&list="])
