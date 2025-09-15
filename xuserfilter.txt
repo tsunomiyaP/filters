@@ -52,6 +52,7 @@ m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(grid-shelf-view-model)
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
 ! 動画
+m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer>ytm-companion-slot
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer>ytm-item-section-renderer:has(ad-slot-renderer)
 ! 検索
 m.youtube.com##ytm-search grid-shelf-view-model
