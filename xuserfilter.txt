@@ -23,7 +23,7 @@ x.com##[aria-label="トレンド"]>div>div>div:not(:has(form[aria-label="検索"
 ! x.com##[aria-label="トレンド"]>div>div>div:has(aside[aria-label="おすすめユーザー"])
 ! x.com##[aria-label="トレンド"]>div>div>div:has(nav[aria-label="フッター"])
 ! トレンド
-x.com##[aria-label="タイムライン: 話題を検索"]>div:has(> :nth-child(0)):has(> :nth-child(-n+1):last-child) div
+x.com##[aria-label="タイムライン: 話題を検索"]>div:has(>:nth-child(1)):has(>:nth-child(-n+2):last-child) div
 x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:is(,:has([data-testid="trend"]>div[class="css-175oi2r r-16y2uox r-1t982j2 r-1b3ntt7 r-bnwqim"]),:has([class="css-175oi2r r-l00any r-109y4c4 r-gu4em3"]))
 ! Grok メッセージ
 x.com##[data-testid="GrokDrawer"]
