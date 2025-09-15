@@ -30,32 +30,32 @@ x.com##[data-testid="DMDrawer"]
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 ! www.youtube.com (PC) ublock
 ! ホーム
-youtube.com##[page-subtype="home"] div[id="primary"] div[id="masthead-ad"]:has(ytd-ad-slot-renderer)
-youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
-youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
+www.youtube.com##[page-subtype="home"] div[id="primary"] div[id="masthead-ad"]:has(ytd-ad-slot-renderer)
+www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
+www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 動画
-youtube.com##div[class="style-scope ytd-watch-flexy"] div[id="related"]>div[id="player-ads"]
-youtube.com##div[class="style-scope ytd-watch-flexy"] ytd-rich-item-renderer:has(yt-lockup-view-model)
+www.youtube.com##div[class="style-scope ytd-watch-flexy"] div[id="related"]>div[id="player-ads"]
+www.youtube.com##div[class="style-scope ytd-watch-flexy"] ytd-rich-item-renderer:has(yt-lockup-view-model)
 ! 検索
-youtube.com##[class="style-scope ytd-search"] ytd-ad-slot-renderer
-youtube.com##[class="style-scope ytd-search"] grid-shelf-view-model
-youtube.com##[class="style-scope ytd-search"] ytd-video-renderer:has(a[href*="/shorts/"])
-youtube.com##[class="style-scope ytd-search"] ytd-horizontal-card-list-renderer
+www.youtube.com##[class="style-scope ytd-search"] ytd-ad-slot-renderer
+www.youtube.com##[class="style-scope ytd-search"] grid-shelf-view-model
+www.youtube.com##[class="style-scope ytd-search"] ytd-video-renderer:has(a[href*="/shorts/"])
+www.youtube.com##[class="style-scope ytd-search"] ytd-horizontal-card-list-renderer
 ! m.youtube.com (モバイル) ublock
 ! ホーム
-youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
-youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
-youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
-youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(grid-shelf-view-model)
-youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(grid-shelf-view-model)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
 ! 動画
-youtube.com##ytm-watch ytm-item-section-renderer:has(ad-slot-renderer)
-youtube.com##ytm-watch ytm-item-section-renderer:has(ytm-reel-shelf-renderer)
+m.youtube.com##ytm-watch ytm-item-section-renderer:has(ad-slot-renderer)
+m.youtube.com##ytm-watch ytm-item-section-renderer:has(ytm-reel-shelf-renderer)
 ! 検索
-youtube.com##ytm-search grid-shelf-view-model
-youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
+m.youtube.com##ytm-search grid-shelf-view-model
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
 ! ショートタブ
-youtube.com##ytm-pivot-bar-item-renderer:has(div[class="pivot-bar-item-tab pivot-shorts"])
+m.youtube.com##ytm-pivot-bar-item-renderer:has(div[class="pivot-bar-item-tab pivot-shorts"])
 ! youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
 ! adguard
 ! youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
