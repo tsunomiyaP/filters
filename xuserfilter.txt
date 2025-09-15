@@ -24,7 +24,7 @@ x.com##[aria-label="トレンド"]>div>div>div:not(:has(form[aria-label="検索"
 ! x.com##[aria-label="トレンド"]>div>div>div:has(nav[aria-label="フッター"])
 ! トレンド
 x.com##[aria-label="タイムライン: 話題を検索"]>div>div:nth-of-type(n+1):nth-of-type(-n+3)
-x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:is(:has([data-testid="trend"]>div[class="css-175oi2r r-16y2uox r-1t982j2 r-1b3ntt7 r-bnwqim"]),:has([class="css-175oi2r r-l00any r-109y4c4 r-gu4em3"],:has([data-testid="tweet"])))
+x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:is(:has([data-testid="trend"]>div[class="css-175oi2r r-16y2uox r-1t982j2 r-1b3ntt7 r-bnwqim"]),:has([class="css-175oi2r r-l00any r-109y4c4 r-gu4em3"],:has(article[data-testid="tweet"])))
 ! Grok メッセージ
 x.com##[data-testid="GrokDrawer"]
 ! DM
