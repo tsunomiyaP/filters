@@ -61,6 +61,7 @@ m.youtube.com##ytm-search grid-shelf-view-model
 m.youtube.com##ytm-search ytm-reel-shelf-renderer:has(a[href*="/shorts/"])
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
 m.youtube.com##ytm-search ytm-compact-radio-renderer
+m.youtube.com##ytm-search ytm-compact-channel-renderer
 ! チャンネル
 m.youtube.com##div[class="page-container"] yt-tab-shape[tab-title="ショート"]
 ! モバイル全般 ショートタブ
