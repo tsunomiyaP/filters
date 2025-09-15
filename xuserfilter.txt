@@ -51,7 +51,7 @@ www.youtube.com##[page-subtype="channels"] yt-tab-shape[tab-title="ショート"
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
-m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(grid-shelf-view-model)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(div[class="ytGridShelfViewModelGridShelfRow"])
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
 m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(chips-shelf-with-video-shelf-renderer)
 ! 動画
