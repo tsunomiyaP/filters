@@ -62,3 +62,4 @@ m.youtube.com##ytm-pivot-bar-item-renderer:has(div[class="pivot-bar-item-tab piv
 ! youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
 ! adguard
 ! youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
+m.youtube.com##div[class="page-container"] yt-tab-shape[tab-title="ショート"]
