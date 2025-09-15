@@ -17,7 +17,7 @@ x.com##a[href="/i/verified-orgs-signup"]
 ! 求人
 x.com##a[href="/jobs"]
 ! サイドバー
-x.com##[aria-label="トレンド"] div:not(>form[aria-label="検索"])
+x.com##[aria-label="トレンド"]>div>div>div:not(form[aria-label="検索"])
 ! x.com##[aria-label="トレンド"] div:has(>div[data-testid="news_sidebar"])
 ! x.com##[aria-label="トレンド"] div:has(>section>div[aria-label="タイムライン: 速報"])
 ! x.com##[aria-label="トレンド"] div:has(>div>div>aside[aria-label="おすすめユーザー"])
