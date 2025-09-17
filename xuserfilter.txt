@@ -60,10 +60,10 @@ www.youtube.com##[class="style-scope ytd-search"] ytd-horizontal-card-list-rende
 www.youtube.com##[page-subtype="channels"] yt-tab-shape[tab-title="ショート"]
 ! m.youtube.com (モバイル) ublock
 ! ホーム
-m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-statement-banner-renderer
-m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
-m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
-m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-statement-banner-renderer
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer[class="is-in-first-col"]:has(ad-slot-renderer)
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer
 ! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
 ! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(div[class="ytGridShelfViewModelGridShelfRow"])
 ! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
@@ -71,6 +71,7 @@ m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>
 ! 動画
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer>ytm-companion-slot
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer>ytm-item-section-renderer:has(ad-slot-renderer)
+m.youtube.com##ytm-watch div[class="related-items-container"]
 ! 検索
 m.youtube.com##ytm-search grid-shelf-view-model
 m.youtube.com##ytm-search ytm-reel-shelf-renderer:has(a[href*="/shorts/"])
