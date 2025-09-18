@@ -17,16 +17,16 @@ x.com##a[href="/i/verified-orgs-signup"]
 ! 求人
 x.com##a[href="/jobs"]
 ! サイドバー
-x.com##[aria-label="トレンド"]>div>div>div:not(:has(form[aria-label="検索"], div.css-175oi2r.r-h3s6tt))
-x.com##[aria-label="トレンド"]>div>div:not(:has(form[aria-label="検索"], div.css-175oi2r.r-h3s6tt))
-! x.com##[aria-label="トレンド"]>div>div>div:has(div[data-testid="news_sidebar"])
-! x.com##[aria-label="トレンド"]>div>div>div:has(section>div[aria-label="タイムライン: 速報"])
-! x.com##[aria-label="トレンド"]>div>div>div:has(aside[aria-label="おすすめユーザー"])
-! x.com##[aria-label="トレンド"]>div>div>div:has(nav[aria-label="フッター"])
+x.com##[aria-label="トレンド"] > div > div > div:not(:has(form[aria-label="検索"], div.css-175oi2r.r-h3s6tt))
+x.com##[aria-label="トレンド"] > div > div:not(:has(form[aria-label="検索"], div.css-175oi2r.r-h3s6tt))
+! x.com##[aria-label="トレンド"] > div > div > div:has(div[data-testid="news_sidebar"])
+! x.com##[aria-label="トレンド"] > div > div > div:has(section > div[aria-label="タイムライン: 速報"])
+! x.com##[aria-label="トレンド"] > div > div > div:has(aside[aria-label="おすすめユーザー"])
+! x.com##[aria-label="トレンド"] > div > div > div:has(nav[aria-label="フッター"])
 ! トレンド
-x.com##[aria-label="タイムライン: 話題を検索"]>div>div:nth-of-type(n+1):nth-of-type(-n+3)
-! x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:is(:has([data-testid="trend"]>div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"]),:has([data-testid="tweet"]))
-x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:is(:has([data-testid="trend"]>div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"]))
+x.com##[aria-label="タイムライン: 話題を検索"] > div > div:nth-of-type(n+1):nth-of-type(-n+3)
+! x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:is(:has([data-testid="trend"] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"]),:has([data-testid="tweet"]))
+x.com##[aria-label="タイムライン: 話題を検索"] [data-testid="cellInnerDiv"]:is(:has([data-testid="trend"] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"]))
 ! トレンド ニュース
 x.com##a[href="/explore/tabs/news"]
 ! トレンド スポーツ
@@ -41,16 +41,16 @@ x.com##[data-testid="DMDrawer"]
 x.com##[data-testid="cellInnerDiv"]:has([data-testid="socialContext"])
 ! www.youtube.com (PC) ublock
 ! ホーム
-www.youtube.com##[page-subtype="home"] div[id="primary"]>ytd-rich-grid-renderer ytd-statement-banner-renderer
+www.youtube.com##[page-subtype="home"] div[id="primary"] > ytd-rich-grid-renderer ytd-statement-banner-renderer
 www.youtube.com##[page-subtype="home"] div[id="primary"] div[id="masthead-ad"]:has(ytd-ad-slot-renderer)
-www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
-www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-item-renderer:has(a[href*="&list="])
-www.youtube.com##[page-subtype="home"] div[id="contents"]>ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
+www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
+www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has(a[href*="&list="])
+www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 動画
 www.youtube.com##ytd-watch-flexy div[id="panels"]:has(ytd-engagement-panel-section-list-renderer)
-www.youtube.com##ytd-watch-flexy div[id="related"]>div[id="player-ads"]
-www.youtube.com##ytd-watch-flexy div[id="contents"]>ytd-ad-slot-renderer
-www.youtube.com##ytd-watch-flexy div[id="contents"]>ytd-compact-video-renderer
+www.youtube.com##ytd-watch-flexy div[id="related"] > div[id="player-ads"]
+www.youtube.com##ytd-watch-flexy div[id="contents"] > ytd-ad-slot-renderer
+www.youtube.com##ytd-watch-flexy div[id="contents"] > ytd-compact-video-renderer
 ! 検索
 www.youtube.com##.style-scope.ytd-search ytd-ad-slot-renderer
 www.youtube.com##.style-scope.ytd-search grid-shelf-view-model
@@ -60,17 +60,17 @@ www.youtube.com##.style-scope.ytd-search ytd-horizontal-card-list-renderer
 www.youtube.com##[page-subtype="channels"] yt-tab-shape[tab-title="ショート"]
 ! m.youtube.com (モバイル) ublock
 ! ホーム
-m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-statement-banner-renderer
-m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer.is-in-first-col:has(ad-slot-renderer)
-m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-item-renderer:has(ytm-radio-renderer)
-m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer
-! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
-! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(div.ytGridShelfViewModelGridShelfRow)
-! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
-! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer>div>ytm-rich-section-renderer:has(chips-shelf-with-video-shelf-renderer)
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-statement-banner-renderer
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-rich-item-renderer.is-in-first-col:has(ad-slot-renderer)
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-rich-item-renderer:has(ytm-radio-renderer)
+m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-rich-section-renderer
+! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-rich-section-renderer:has(ytm-rich-shelf-renderer)
+! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-rich-section-renderer:has(div.ytGridShelfViewModelGridShelfRow)
+! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-rich-section-renderer:has(ytm-backstage-post-thread-renderer)
+! m.youtube.com##ytm-browse div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-rich-section-renderer:has(chips-shelf-with-video-shelf-renderer)
 ! 動画
-m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer>ytm-companion-slot
-m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer>ytm-item-section-renderer:has(ad-slot-renderer)
+m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-companion-slot
+m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-item-section-renderer:has(ad-slot-renderer)
 m.youtube.com##ytm-watch div.related-items-container
 ! 検索
 m.youtube.com##ytm-search grid-shelf-view-model
