@@ -81,7 +81,7 @@ m.youtube.com##ytm-search ytm-compact-channel-renderer
 ! チャンネル
 m.youtube.com##div.page-container yt-tab-shape[tab-title="ショート"]
 ! モバイル全般 ショートタブ
-m.youtube.com##ytm-pivot-bar-item-renderer:has(div[class="pivot-bar-item-tab pivot-shorts"])
+m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-bar-item-tab.pivot-shorts)
 ! youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
 ! adguard
 ! youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
