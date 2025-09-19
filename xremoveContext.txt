@@ -1,1 +1,1 @@
-www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/切り抜き/)
+www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/切り抜き|ミックスリスト/)
