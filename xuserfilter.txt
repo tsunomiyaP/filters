@@ -72,7 +72,7 @@ m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-ric
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-companion-slot
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-item-section-renderer:has(ad-slot-renderer)
 m.youtube.com##ytm-watch div.related-items-container
-m.youtube.com##ytm-watch div.player-controls-content > div.player-controls-background-container
+m.youtube.com##ytm-watch div#player-control-overlay
 ! 検索
 m.youtube.com##ytm-search grid-shelf-view-model
 m.youtube.com##ytm-search ytm-reel-shelf-renderer:has(a[href*="/shorts/"])
