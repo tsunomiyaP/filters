@@ -71,7 +71,8 @@ m.youtube.com##div[tab-title="ホーム"] ytm-rich-grid-renderer > div > ytm-ric
 ! 動画
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-companion-slot
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-item-section-renderer:has(ad-slot-renderer)
-m.youtube.com##ytm-watch div.related-items-container
+m.youtube.com##ytm-watch div.related-items-container > ytm-item-section-renderer[section-identifier="related-items"]
+m.youtube.com##ytm-watch ytm-item-section-renderer[section-identifier="related-items"]
 m.youtube.com##ytm-custom-control div#player-control-overlay div.player-controls-background-container
 ! 検索
 m.youtube.com##ytm-search grid-shelf-view-model
