@@ -5,6 +5,3 @@ m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-cont
 ! adguard
 ! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/test/im)
 ! m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:contains(/test/im)
-! bilibili
-www.bilibili.com##.bili-mini-content-wp
-www.bilibili.com##.bili-mini-mask
