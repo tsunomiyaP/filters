@@ -6,5 +6,5 @@ m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-cont
 ! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/test/im)
 ! m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:contains(/test/im)
 ! bilibili
-||s1.hdslb.com/bfs/seed/jinkela/short/mini-login-v2/miniLogin.umd.min.js
-||s1.hdslb.com/bfs/static/jinkela/video/stardust-video.47b79406e492861cd14a81ef13df1bfc113e73f4.js
+www.bilibili.com##.bili-mini-content-wp
+www.bilibili.com##.bili-mini-mask
