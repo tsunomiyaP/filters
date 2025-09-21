@@ -1,1 +1,1 @@
-
+www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/)
