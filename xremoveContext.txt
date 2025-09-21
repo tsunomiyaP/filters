@@ -5,5 +5,3 @@ m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-cont
 ! adguard
 ! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/test/im)
 ! m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:contains(/test/im)
-! adplus
-! m.youtube.com#?#ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:-abp-contains(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
