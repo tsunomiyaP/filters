@@ -92,3 +92,5 @@ m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-bar-item-tab.pivot-shor
 ! youtube.com##ytm-pivot-bar-item-renderer:has-text(/ショート/)
 ! adguard
 ! youtube.com##ytm-pivot-bar-item-renderer:contains(/ショート/)
+! youtube サインイン
+m.youtube.com##header.mobile-topbar-header div.mobile-topbar-header-sign-in-button
