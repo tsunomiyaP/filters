@@ -55,6 +55,7 @@ www.youtube.com##ytd-watch-flexy div[id="contents"] > ytd-compact-video-renderer
 www.youtube.com##.style-scope.ytd-search ytd-ad-slot-renderer
 www.youtube.com##.style-scope.ytd-search grid-shelf-view-model
 www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has(a[href*="/shorts/"])
+www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has([title*="#shorts"])
 www.youtube.com##.style-scope.ytd-search ytd-horizontal-card-list-renderer
 ! チャンネル
 www.youtube.com##[page-subtype="channels"] ytd-item-section-renderer:has(ytd-channel-video-player-renderer)
@@ -83,6 +84,7 @@ m.youtube.com##ytm-watch div.ytVideoMetadataCarouselViewModelCarouselContainer:h
 m.youtube.com##ytm-search grid-shelf-view-model
 m.youtube.com##ytm-search ytm-reel-shelf-renderer:has(a[href*="/shorts/"])
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"])
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([aria-label*="#shorts"])
 m.youtube.com##ytm-search ytm-compact-radio-renderer
 m.youtube.com##ytm-search ytm-compact-channel-renderer
 ! チャンネル
