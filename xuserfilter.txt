@@ -58,6 +58,7 @@ www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has(a[href*="/shorts
 www.youtube.com##.style-scope.ytd-search ytd-horizontal-card-list-renderer
 ! チャンネル
 www.youtube.com##[page-subtype="channels"] ytd-item-section-renderer:has(ytd-channel-video-player-renderer)
+www.youtube.com##[page-subtype="channels"] ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
 www.youtube.com##[page-subtype="channels"] ytd-item-section-renderer:has(a[href*="/shorts/"])
 www.youtube.com##[page-subtype="channels"] ytd-item-section-renderer:has([title*="#shorts"])
 www.youtube.com##[page-subtype="channels"] yt-tab-shape[tab-title="ショート"]
