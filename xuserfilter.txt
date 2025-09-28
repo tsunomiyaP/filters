@@ -90,6 +90,7 @@ m.youtube.com##ytm-search ytm-compact-channel-renderer
 ! チャンネル
 m.youtube.com##div.page-container div.tab-content[tab-title="ホーム"] ytm-item-section-renderer:has(ytm-channel-featured-video-renderer)
 m.youtube.com##div.page-container div.tab-content[tab-title="ホーム"] ytm-item-section-renderer:has(a[href*="/shorts/"])
+m.youtube.com##div.page-container div.tab-content[tab-title="ホーム"] ytm-item-section-renderer:has([aria-label="#shorts"])
 m.youtube.com##div.page-container yt-tab-shape[tab-title="ショート"]
 ! モバイル全般 ショートタブ
 m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-bar-item-tab.pivot-shorts)
