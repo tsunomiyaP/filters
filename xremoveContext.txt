@@ -4,16 +4,16 @@ www.youtube.com##+js(set, hoge, '切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|�
 ! ホーム
 ! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(/hoge/im)
 ! 動画
-! www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:has-text(/+js(get, hoge)/im)
+! www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:has-text(/hoge/im)
 ! ホーム
-! m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:has-text(/+js(get, hoge)/im)
+! m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:has-text(/hoge/im)
 ! adguard youtube
 ! ホーム
-www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/+js(get, hoge)/im)
+www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/hoge/im)
 ! 動画
-www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:contains(/+js(get, hoge)/im)
+www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:contains(/hoge/im)
 ! ホーム
-m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:contains(/+js(get, hoge)/im)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:contains(/hoge/im)
 ! adplus youtube
 ! ホーム
-! m.youtube.com#?#ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:-abp-contains(/+js(get, hoge)/im)
+! m.youtube.com#?#ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:-abp-contains(/hoge/im)
