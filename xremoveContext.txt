@@ -2,7 +2,7 @@
 ! 変数
 www.youtube.com##+js(set, hoge, '切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一|(バキ童|ぐんぴぃ))')
 ! ホーム
-! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(/+js(get, hoge)/im)
+! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(/切り抜き/im)
 ! 動画
 ! www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:has-text(/+js(get, hoge)/im)
 ! ホーム
