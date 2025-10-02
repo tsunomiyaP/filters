@@ -8,7 +8,7 @@
 ! adguard youtube
 ! ホーム
 ! 動画
-www.youtube.com##:is([page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer, ytd-watch-flexy div#related div#items > yt-lockup-view-model):contains(/はじめしゃちょー|HIKAKIN|切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画|まとめ)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム||大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|ハセシン|(釈迦|SHAKA)|純一|(バキ童|ぐんぴぃ))/im)
+www.youtube.com##:is([page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer, ytd-watch-flexy div#related div#items > yt-lockup-view-model):contains(/はじめしゃちょー|HIKAKIN|切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画|まとめ)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|ハセシン|(釈迦|SHAKA)|純一|(バキ童|ぐんぴぃ))/im)
 ! ホーム
 m.youtube.com##:is(ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer):contains(/はじめしゃちょー|HIKAKIN|切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画|まとめ)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|ハセシン|(釈迦|SHAKA)|純一|(バキ童|ぐんぴぃ))/im)
 ! adplus youtube
