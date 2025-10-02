@@ -64,6 +64,11 @@ www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has(a[href
 www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has([title*="#shorts"i])
 www.youtube.com##[page-subtype="channels"i] yt-tab-shape[tab-title="ショート"i]
 ! サイドバー
+! ショート系
+www.youtube.com##ytd-guide-section-renderer > div#items.ytd-guide-section-renderer > ytd-guide-entry-renderer > a#endpoint[title="ショート"]
+www.youtube.com##ytd-mini-guide-renderer > div#items.ytd-mini-guide-renderer > ytd-mini-guide-entry-renderer > a#endpoint[title="ショート"]
+www.youtube.com##ytm-pivot-bar-renderer[role="tablist"] > ytm-pivot-bar-item-renderer:has(div.pivot-shorts[role="tab"])
+! おすすめ
 www.youtube.com##ytd-guide-renderer > div#sections > *:nth-child(n+2)
 www.youtube.com##ytd-guide-renderer > div#footer
 ! m.youtube.com (モバイル) ublock
