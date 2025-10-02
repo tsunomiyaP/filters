@@ -1,17 +1,19 @@
 ! ublock youtube
+! 変数
+www.youtube.com##+js(set, hoge, /切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一|(バキ童|ぐんぴぃ))/im)
 ! ホーム
-! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
+! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(hoge)
 ! 動画
-! www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:has-text(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
+! www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:has-text(hoge)
 ! ホーム
-! m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:has-text(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
+! m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:has-text(hoge)
 ! adguard youtube
 ! ホーム
-www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
+www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:contains(hoge)
 ! 動画
-www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:contains(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
+www.youtube.com##ytd-watch-flexy div#related div#items > yt-lockup-view-model:contains(hoge)
 ! ホーム
-m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:contains(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
+m.youtube.com##ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:contains(hoge)
 ! adplus youtube
 ! ホーム
-! m.youtube.com#?#ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:-abp-contains(/切り抜き|#(.+祭|.+まつり|.+杯|.+cup)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|大空スバル|(ホロスタ|holostar)|アルランディス|犬山|メイカ)|(ボドカ|(釈迦|SHAKA)|純一)/im)
+! m.youtube.com#?#ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:-abp-contains(hoge)
