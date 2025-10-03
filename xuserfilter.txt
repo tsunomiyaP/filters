@@ -47,7 +47,7 @@ www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-item-rend
 www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-item-renderer:has(a[href*="&list="i])
 www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 動画
-www.youtube.com##ytd-watch-flexy div[id="panels"i]:has(ytd-engagement-panel-section-list-renderer)
+www.youtube.com##ytd-watch-flexy div[id="panels"i] ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"]
 www.youtube.com##ytd-watch-flexy div[id="related"i] > div[id="player-ads"i]
 www.youtube.com##ytd-watch-flexy div[id="contents"i] > ytd-ad-slot-renderer
 www.youtube.com##ytd-watch-flexy div[id="contents"i] > ytd-compact-video-renderer
