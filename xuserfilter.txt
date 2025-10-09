@@ -6,6 +6,7 @@ x.com##div[aria-label="ホームタイムライン"] :not(div[aria-label*="フ�
 ! x.com##[data-testid="cellInnerDiv"]:has-text(/プロモーション|Promotion/i)
 ! adguard
 ! x.com##[data-testid="cellInnerDiv"]:contains(/プロモーション|Promotion/i)
+! x side bar moments
 ! Grok
 x.com##a[href="/i/grok"i]
 ! コミュニティ
