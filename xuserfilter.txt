@@ -16,6 +16,12 @@ x.com##a[href="/i/premium_sign_up"i]
 x.com##a[href="/i/verified-orgs-signup"i]
 ! 求人
 x.com##a[href="/jobs"i]
+! チャット
+x.com##a[href="/i/chat"]
+! 収益化
+x.com##a[href="/i/monetization"]
+! 広告
+x.com##a[href*="ads"]  
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div > div:not(:has(form[aria-label="検索"i], div.css-175oi2r.r-h3s6tt))
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i], div.css-175oi2r.r-h3s6tt))
