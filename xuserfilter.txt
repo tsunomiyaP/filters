@@ -32,9 +32,8 @@ x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索
 ! x.com##[aria-label="トレンド"i] > div > div > div:has(nav[aria-label="フッター"i])
 ! トレンド
 x.com##[aria-label="タイムライン: 話題を検索"i] > div > div:nth-of-type(n+1):nth-of-type(-n+3)
-! x.com##[aria-label="タイムライン: 話題を検索"i] [data-testid="cellInnerDiv"i]:is(:has([data-testid="trend"i] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"i]),:has([data-testid="tweet"i]))
-x.com##[aria-label="タイムライン: 話題を検索"i] [data-testid="cellInnerDiv"i]:is(:has([data-testid="trend"i] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"i]))
-x.com##[aria-label="タイムライン: 話題を検索"i] [data-testid="cellInnerDiv"i]:is(:has([class="css-175oi2r r-1igl3o0 r-qklmqi r-1adg3ll r-1ny4l3l"]))
+! x.com##[aria-label="タイムライン: 話題を検索"i] [data-testid="cellInnerDiv"i]:is(:has([data-testid="trend"i] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"i]))
+x.com##[aria-label="タイムライン: 話題を検索"i] [data-testid="cellInnerDiv"i]:is(:has([data-testid="trend"i] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"i]),:has([data-testid="tweet"i]))
 ! トレンド ニュース
 x.com##a[href="/explore/tabs/news"i]
 ! トレンド スポーツ
