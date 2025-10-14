@@ -47,7 +47,7 @@ x.com##[data-testid="DMDrawer"i]
 ! リツイート
 x.com##article[data-testid="cellInnerDiv"i]:has([data-testid="socialContext"i])
 ! 引用
-x.com##[data-testid="tweet"] div[id=]
+x.com##[data-testid="tweet"]:has(div[id])
 ! www.youtube.com (PC) ublock
 ! ホーム
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] div[id="masthead-ad"i]:has(ytd-ad-slot-renderer)
