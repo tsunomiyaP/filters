@@ -48,7 +48,7 @@ x.com##[data-testid="DMDrawer"i]
 x.com##article[data-testid="cellInnerDiv"i]:has([data-testid="socialContext"i])
 ! 引用
 ! x.com##div[data-testid="cellInnerDiv"]:has([data-testid="tweet"] > div > div > div > div > div[aria-labelledby][id])
-x.com##[aria-label="タイムライン: 会話"] div[data-testid="cellInnerDiv"]:has([data-testid="tweet"] > div > div > div > div > div[aria-labelledby][id])
+x.com##[aria-label="タイムライン: 会話"] > div:nth-of-type(n+1) > div[data-testid="cellInnerDiv"]:has([data-testid="tweet"] > div > div > div > div > div[aria-labelledby][id])
 ! www.youtube.com (PC) ublock
 ! ホーム
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] div[id="masthead-ad"i]:has(ytd-ad-slot-renderer)
