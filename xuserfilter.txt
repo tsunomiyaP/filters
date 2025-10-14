@@ -46,6 +46,8 @@ x.com##[data-testid="GrokDrawer"i]
 x.com##[data-testid="DMDrawer"i]
 ! リツイート
 x.com##[data-testid="cellInnerDiv"i]:has([data-testid="socialContext"i])
+! 引用
+x.com##[aria-label="ホームタイムライン"] > section > div[aria-label="タイムライン: タイムラインを検索"] article > div > div > div > div > div[aria-labelledby] > div[id]
 ! www.youtube.com (PC) ublock
 ! ホーム
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] div[id="masthead-ad"i]:has(ytd-ad-slot-renderer)
