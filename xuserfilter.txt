@@ -48,7 +48,7 @@ x.com##[data-testid="DMDrawer"i]
 ! x.com##div[data-testid="Tweet-User-Avatar"] + div[class="css-175oi2r r-1bnu78o r-f8sm7e r-m5arl1 r-16y2uox r-14gqq1x"]
 ! x.com##article[data-testid="tweet"] > div > div > div[class="css-175oi2r"]:has(+ div:has([data-testid="Tweet-User-Avatar"]))
 x.com##article[data-testid="tweet"] > div > div > div[class="css-175oi2r r-18u37iz"] > div > div[class="css-175oi2r r-1bnu78o r-f8sm7e r-m5arl1 r-16y2uox r-14gqq1x"]
-x.com##article[data-testid="tweet"] > div > div > div[class="css-175oi2r r-18u37iz"] > div > div[class="css-175oi2r r-1bnu78o r-f8sm7e r-m5arl1 r-1p0dtai r-1d2f490 r-u8s1d r-zchlnj r-ipm5af"]
+x.com##article[data-testid="tweet"] > div > div > div > div[class="css-175oi2r r-18u37iz"] > div > div[class="css-175oi2r r-1bnu78o r-f8sm7e r-m5arl1 r-1p0dtai r-1d2f490 r-u8s1d r-zchlnj r-ipm5af"]
 ! リツイート
 x.com##article[data-testid="cellInnerDiv"i]:has([data-testid="socialContext"i])
 ! 引用
