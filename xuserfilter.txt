@@ -46,6 +46,7 @@ x.com##[data-testid="GrokDrawer"i]
 x.com##[data-testid="DMDrawer"i]
 ! 返信
 x.com##div[data-testid="Tweet-User-Avatar"] + div[class="css-175oi2r r-1bnu78o r-f8sm7e r-m5arl1 r-16y2uox r-14gqq1x"]
+x.com##article[data-testid="tweet"] > div > div > div:has(data-testid="Tweet-User-Avatar") + div
 ! リツイート
 x.com##article[data-testid="cellInnerDiv"i]:has([data-testid="socialContext"i])
 ! 引用
