@@ -44,6 +44,8 @@ x.com##a[href="/explore/tabs/entertainment"i]
 x.com##[data-testid="GrokDrawer"i]
 ! DM
 x.com##[data-testid="DMDrawer"i]
+! 返信
+x.com##div[data-testid="Tweet-User-Avatar"] > div[class="css-175oi2r r-1bnu78o r-f8sm7e r-m5arl1 r-16y2uox r-14gqq1x"]
 ! リツイート
 x.com##article[data-testid="cellInnerDiv"i]:has([data-testid="socialContext"i])
 ! 引用
