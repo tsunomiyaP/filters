@@ -68,6 +68,7 @@ www.youtube.com##ytd-watch-flexy div[id="related"i] > div[id="player-ads"i]
 www.youtube.com##ytd-watch-flexy div[id="contents"i] > ytd-ad-slot-renderer
 www.youtube.com##ytd-watch-flexy div[id="contents"i] > ytd-compact-video-renderer
 www.youtube.com##:is(div[class="html5-endscreen ytp-player-content videowall-endscreen"], div[class*="ytp-ce-element"], div[class="ytp-endscreen-content"])
+www.youtube.com##div.ytp-fullscreen-grid
 ! 検索
 www.youtube.com##.style-scope.ytd-search ytd-ad-slot-renderer
 www.youtube.com##.style-scope.ytd-search grid-shelf-view-model
