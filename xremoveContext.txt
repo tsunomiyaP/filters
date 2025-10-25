@@ -1,3 +1,5 @@
+! ublock twitter
+x.com##div[data-testid="cellInnerDiv"i]:contains(/(はじめしゃちょー|hikakin|seikin|quizknock)|切り抜き|(#)*(.+祭|.+まつり|.+杯|.+cup|.+リーグ|madtown)|ゲーマー|顔合わせ|(にじさんじ.+(大会|企画|まとめ)|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|加賀美|葛葉|(?=.*にじさんじ)(?=.*叶).*)|(大空スバル|(ホロスタ|holostar)|荒咬オウガ|(夕刻ロベル|ロべっさん)|(アルランディス|アルさん))|犬山|メイカ|かなえ先生|(ボドカ|ハセシン|(釈迦|shaka)|k4sen|純一|もこう|ゆゆうた|(バキ童|ぐんぴぃ))/im)
 ! ublock youtube
 ! ホーム
 ! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(/hoge/im)
