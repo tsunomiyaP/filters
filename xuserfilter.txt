@@ -47,9 +47,9 @@ x.com##[data-testid="DMDrawer"i]
 ! 返信 兄弟要素　後：前
 ! x.com##div[data-testid="Tweet-User-Avatar"i] + div[class="css-175oi2r r-1bnu78o r-f8sm7e r-m5arl1 r-16y2uox r-14gqq1x"i]
 ! x.com##article[data-testid="tweet"i] > div > div > div[class="css-175oi2r"i]:has(+ div:has([data-testid="Tweet-User-Avatar"i]))
-x.com##article[data-testid="tweet"i] > div > div > div[class="css-175oi2r r-18u37iz"i] > div > div[class="css-175oi2r r-1bimlpy r-f8sm7e r-m5arl1 r-16y2uox r-14gqq1x"i]
-x.com##article[data-testid="tweet"i] > div > div > div[class="css-175oi2r"i] > div[class="css-175oi2r r-18u37iz"i] > div[class="css-175oi2r r-18kxxzh r-ogg1b9 r-1mrc8m9 r-15zivkp"i]
-x.com##div[data-testid="cellInnerDiv"i] > div[class="css-175oi2r r-j5o65s r-qklmqi r-1adg3ll r-1ny4l3l"i]:not(:has(article[data-testid="tweet"i]))
+x.com##div[aria-label="タイムライン: 会話"] article[data-testid="tweet"i] > div > div > div[class="css-175oi2r r-18u37iz"i] > div > div[class="css-175oi2r r-1bimlpy r-f8sm7e r-m5arl1 r-16y2uox r-14gqq1x"i]
+x.com##div[aria-label="タイムライン: 会話"] article[data-testid="tweet"i] > div > div > div[class="css-175oi2r"i] > div[class="css-175oi2r r-18u37iz"i] > div[class="css-175oi2r r-18kxxzh r-ogg1b9 r-1mrc8m9 r-15zivkp"i]
+x.com##div[aria-label="タイムライン: 会話"] div[data-testid="cellInnerDiv"i] > div[class="css-175oi2r r-j5o65s r-qklmqi r-1adg3ll r-1ny4l3l"i]:not(:has(article[data-testid="tweet"i]))
 ! リツイート
 x.com##div[data-testid="cellInnerDiv"i]:has(span[data-testid="socialContext"i])
 ! 引用
