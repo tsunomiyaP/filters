@@ -1,5 +1,5 @@
 ! ublock twitter
-x.com##div[data-testid="cellInnerDiv"i]:contains(/(はじめしゃちょー|hikakin|seikin|quizknock)|(切り抜き|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|加賀美|葛葉|(?=.*にじさんじ)(?=.*叶).*)|(大空スバル|(ホロスタ|holostar)|荒咬オウガ|(夕刻ロベル|ロべっさん)|(アルランディス|アルさん))|犬山|メイカ|かなえ先生|(ボドカ|ハセシン|(釈迦|shaka)|k4sen|純一|もこう|ゆゆうた|(バキ童|ぐんぴぃ)|(?=.*(vtuber|にじ(さんじ)*|cr|ストリーマー|獅白|kzh|lol|valo|apex))(?=.*(cup|カップ|杯|祭|カスタム|大会|選手権|企画|まとめ)).*)|(ストグラ|スト鯖|mad(\\s)*town|コーチング|スクリム|交流戦|講座|顔合わせ)/im)
+x.com##div[data-testid="cellInnerDiv"i]:contains(/(はじめしゃちょー|hikakin|seikin|quizknock)|(くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|加賀美|葛葉|((?=.*にじさんじ)(?=.*叶).*))|(大空スバル|(ホロスタ|holostar)|荒咬オウガ|(夕刻ロベル|ロべっさん)|(アルランディス|アルさん))|(犬山|メイカ|かなえ先生)|(ボドカ|ハセシン|(釈迦|shaka)|k4sen|純一|もこう|ゆゆうた|(バキ童|ぐんぴぃ))|(?=.*(vtuber|にじ(さんじ)*|cr|ストリーマー|獅白|kzh|lol|valo|apex))(?=.*(cup|カップ|杯|祭|カスタム|大会|選手権|企画|まとめ)).*)|(ストグラ|スト鯖|mad(\\s)*town|コーチング|スクリム|交流戦|講座|顔合わせ)/im)
 ! ublock youtube
 ! ホーム
 ! www.youtube.com##[page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer:has-text(/hoge/im)
@@ -10,9 +10,9 @@ x.com##div[data-testid="cellInnerDiv"i]:contains(/(はじめしゃちょー|hika
 ! adguard youtube
 ! ホーム
 ! 動画
-www.youtube.com##:is([page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer, ytd-watch-flexy div#related div#items > yt-lockup-view-model):contains(/(はじめしゃちょー|hikakin|seikin|quizknock)|(切り抜き|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|加賀美|葛葉|(?=.*にじさんじ)(?=.*叶).*)|(大空スバル|(ホロスタ|holostar)|荒咬オウガ|(夕刻ロベル|ロべっさん)|(アルランディス|アルさん))|犬山|メイカ|かなえ先生|(ボドカ|ハセシン|(釈迦|shaka)|k4sen|純一|もこう|ゆゆうた|(バキ童|ぐんぴぃ)|(?=.*(vtuber|にじ(さんじ)*|cr|ストリーマー|獅白|kzh|lol|valo|apex))(?=.*(cup|カップ|杯|祭|カスタム|大会|選手権|企画|まとめ)).*)|(ストグラ|スト鯖|mad(\\s)*town|コーチング|スクリム|交流戦|講座|顔合わせ)/im)
+www.youtube.com##:is([page-subtype="home"] div[id="contents"] > ytd-rich-item-renderer, ytd-watch-flexy div#related div#items > yt-lockup-view-model):contains(/(はじめしゃちょー|hikakin|seikin|quizknock)|(くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|加賀美|葛葉|((?=.*にじさんじ)(?=.*叶).*))|(大空スバル|(ホロスタ|holostar)|荒咬オウガ|(夕刻ロベル|ロべっさん)|(アルランディス|アルさん))|(犬山|メイカ|かなえ先生)|(ボドカ|ハセシン|(釈迦|shaka)|k4sen|純一|もこう|ゆゆうた|(バキ童|ぐんぴぃ))|(?=.*(vtuber|にじ(さんじ)*|cr|ストリーマー|獅白|kzh|lol|valo|apex))(?=.*(cup|カップ|杯|祭|カスタム|大会|選手権|企画|まとめ)).*)|(ストグラ|スト鯖|mad(\\s)*town|コーチング|スクリム|交流戦|講座|顔合わせ)/im)
 ! ホーム
-m.youtube.com##:is(ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer):contains(/(はじめしゃちょー|hikakin|seikin|quizknock)|(切り抜き|くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|加賀美|葛葉|(?=.*にじさんじ)(?=.*叶).*)|(大空スバル|(ホロスタ|holostar)|荒咬オウガ|(夕刻ロベル|ロべっさん)|(アルランディス|アルさん))|犬山|メイカ|かなえ先生|(ボドカ|ハセシン|(釈迦|shaka)|k4sen|純一|もこう|ゆゆうた|(バキ童|ぐんぴぃ)|(?=.*(vtuber|にじ(さんじ)*|cr|ストリーマー|獅白|kzh|lol|valo|apex))(?=.*(cup|カップ|杯|祭|カスタム|大会|選手権|企画|まとめ)).*)|(ストグラ|スト鯖|mad(\\s)*town|コーチング|スクリム|交流戦|講座|顔合わせ)/im)
+m.youtube.com##:is(ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer):contains(/(はじめしゃちょー|hikakin|seikin|quizknock)|(くろのわ|七次元生徒会|剣持|月ノ美兎|ジョー・力一|イブラヒム|加賀美|葛葉|((?=.*にじさんじ)(?=.*叶).*))|(大空スバル|(ホロスタ|holostar)|荒咬オウガ|(夕刻ロベル|ロべっさん)|(アルランディス|アルさん))|(犬山|メイカ|かなえ先生)|(ボドカ|ハセシン|(釈迦|shaka)|k4sen|純一|もこう|ゆゆうた|(バキ童|ぐんぴぃ))|(?=.*(vtuber|にじ(さんじ)*|cr|ストリーマー|獅白|kzh|lol|valo|apex))(?=.*(cup|カップ|杯|祭|カスタム|大会|選手権|企画|まとめ)).*)|(ストグラ|スト鯖|mad(\\s)*town|コーチング|スクリム|交流戦|講座|顔合わせ)/im)
 ! adplus youtube
 ! ホーム
 ! m.youtube.com#?#ytm-browse div[tab-title="ホーム"] div.rich-grid-renderer-contents > ytm-rich-item-renderer:-abp-contains(/hoge/im)
