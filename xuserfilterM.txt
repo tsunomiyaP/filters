@@ -105,8 +105,6 @@ m.youtube.com##div[tab-title="ホーム"i] ytm-rich-grid-renderer > div > ytm-ri
 ! 動画
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-companion-slot
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-item-section-renderer:has(ad-slot-renderer)
-m.youtube.com##ytm-watch div.related-items-container > ytm-item-section-renderer[section-identifier="related-items"i]
-m.youtube.com##ytm-watch ytm-item-section-renderer[section-identifier="related-items"i]
 m.youtube.com##ytm-custom-control div#player-control-overlay div.player-controls-background-container
 m.youtube.com##ytm-watch div.ytVideoMetadataCarouselViewModelCarouselContainer:has(yt-carousel-item-view-model[aria-label="コメント"i])
 ! 検索
