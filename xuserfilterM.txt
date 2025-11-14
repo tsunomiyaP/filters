@@ -103,7 +103,6 @@ m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-com
 m.youtube.com##ytm-watch ytm-single-column-watch-next-results-renderer > ytm-item-section-renderer:has(ad-slot-renderer)
 m.youtube.com##ytm-custom-control div#player-control-overlay div.player-controls-background-container
 m.youtube.com##ytm-watch div.ytVideoMetadataCarouselViewModelCarouselContainer:has(yt-carousel-item-view-model[aria-label="コメント"i])
-m.youtube.com##ytm-watch div.related-items-container > ytm-item-section-renderer[section-identifier="related-items"]
 ! 検索
 m.youtube.com##ytm-search grid-shelf-view-model
 m.youtube.com##ytm-search ytm-reel-shelf-renderer:has(a[href*="/shorts/"i])
