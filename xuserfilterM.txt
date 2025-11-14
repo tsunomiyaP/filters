@@ -24,8 +24,7 @@ x.com##a[href="/i/monetization"i]
 ! 広告
 x.com##a[href*="ads"i]  
 ! サイドバー
-x.com##[aria-label="トレンド"i] > div > div > div:not(:has(form[aria-label="検索"i], div.css-175oi2r.r-h3s6tt))
-x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i], div.css-175oi2r.r-h3s6tt))
+x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
 ! x.com##[aria-label="トレンド"i] > div > div > div:has(div[data-testid="news_sidebar"i])
 ! x.com##[aria-label="トレンド"i] > div > div > div:has(section > div[aria-label="タイムライン: 速報"i])
 ! x.com##[aria-label="トレンド"i] > div > div > div:has(aside[aria-label="おすすめユーザー"i])
@@ -57,6 +56,8 @@ x.com##div[aria-label="タイムライン: 会話"i] article[data-testid="tweet"
 x.com##div[data-testid="cellInnerDiv"i] button[aria-label^="Grok"i]
 ! リツイート
 x.com##div[data-testid="cellInnerDiv"i]:has(span[data-testid="socialContext"i])
+! プロモーション
+x.com##div[data-testid="cellInnerDiv"i]:has(div[dir="ltr"][class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1tl8opc r-1enofrn r-1f529hi r-16dba41"])
 ! www.youtube.com (PC) ublock
 ! ホーム
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] div[id="masthead-ad"i]:has(ytd-ad-slot-renderer)
