@@ -24,8 +24,8 @@ x.com##a[href="/i/monetization"i]
 ! 広告
 x.com##a[href*="ads"i]  
 ! サイドバー
-x.com##[aria-label="トレンド"i] > div > div > div:not(:has(form[aria-label="検索"i], div.css-175oi2r.r-h3s6tt))
-x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i], div.css-175oi2r.r-h3s6tt))
+! x.com##[aria-label="トレンド"i] > div > div > div:not(:has(form[aria-label="検索"i], div.css-175oi2r.r-h3s6tt))
+x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
 ! x.com##[aria-label="トレンド"i] > div > div > div:has(div[data-testid="news_sidebar"i])
 ! x.com##[aria-label="トレンド"i] > div > div > div:has(section > div[aria-label="タイムライン: 速報"i])
 ! x.com##[aria-label="トレンド"i] > div > div > div:has(aside[aria-label="おすすめユーザー"i])
