@@ -1,6 +1,8 @@
 ! x.com ublock
 ! おすすめユーザー
-x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > [data-testid="cellInnerDiv"i]:is(:has(h2[role="heading"i].css-175oi2r.r-18u37iz.r-7cikom),:has(button[data-testid="UserCell"i]),:has(a[href*="/i/connect_people"i][role="link"i]),:has(a[href$="&src=hashtag_click&f=user"i][role="link"i]),:has(a[href$="&src=trend_click&f=user"i][role="link"i]))
+x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(:is(div[class="css-175oi2r r-1adg3ll r-1ny4l3l"]))
+! 広告 : プロモーション
+x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(div[class="css-175oi2r r-a1ub67"])
 ! x side bar moments
 ! Grok
 x.com##a[href="/i/grok"i]
