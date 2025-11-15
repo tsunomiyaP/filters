@@ -29,7 +29,7 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(sp
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="オクタビオ"])
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="クリムゾン・ルーズ"])
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="スバル"])
-youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="ROFMAO"])
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="ROF-MAO"])
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="VOLTACTION"])
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="VALZ"])
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(span[class*="yt-core-attributed-string"][aria-label*="七次元生徒会"])
