@@ -20,10 +20,6 @@ x.com##a[href="/i/monetization"i]
 x.com##a[href*="ads"i]  
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
-! x.com##[aria-label="トレンド"i] > div > div > div:has(div[data-testid="news_sidebar"i])
-! x.com##[aria-label="トレンド"i] > div > div > div:has(section > div[aria-label="タイムライン: 速報"i])
-! x.com##[aria-label="トレンド"i] > div > div > div:has(aside[aria-label="おすすめユーザー"i])
-! x.com##[aria-label="トレンド"i] > div > div > div:has(nav[aria-label="フッター"i])
 ! トレンド
 x.com##[aria-label="タイムライン: 話題を検索"i] > div > div:nth-of-type(n+1):nth-of-type(-n+3)
 ! x.com##[aria-label="タイムライン: 話題を検索"i] [data-testid="cellInnerDiv"i]:is(:has([data-testid="trend"i] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"i]))
