@@ -110,8 +110,9 @@ m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="/shorts/"
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="&start_radio="i])
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has(a[href*="&list="i])
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has([aria-label*="#shorts"i])
-m.youtube.com##ytm-search ytm-compact-radio-renderer
 m.youtube.com##ytm-search ytm-compact-channel-renderer
+m.youtube.com##ytm-search ytm-compact-playlist-renderer
+m.youtube.com##ytm-search ytm-compact-radio-renderer
 m.youtube.com##ytm-search grid-shelf-view-model
 ! チャンネル
 m.youtube.com##div.page-container div.tab-content[tab-title="ホーム"i] ytm-item-section-renderer:has(ytm-channel-featured-video-renderer)
