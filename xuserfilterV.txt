@@ -90,6 +90,7 @@ www.youtube.com##ytd-guide-renderer > div#footer
 ! channel page
 ! 動画
 m.youtube.com##ytm-watch ytm-compact-playlist-renderer
+m.youtube.com##ytm-watch ytm-compact-radio-renderer
 m.youtube.com##ytm-watch ytm-item-section-renderer ytm-video-with-context-renderer:has(a[href*="/shorts/"i])
 m.youtube.com##ytm-watch ytm-item-section-renderer ytm-video-with-context-renderer:has(a[href*="&start_radio="i])
 m.youtube.com##ytm-watch ytm-item-section-renderer ytm-video-with-context-renderer:has(a[href*="&list="i])
