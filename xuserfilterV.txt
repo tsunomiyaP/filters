@@ -86,3 +86,13 @@ www.youtube.com##ytm-pivot-bar-renderer[role="tablist"i] > ytm-pivot-bar-item-re
 www.youtube.com##ytd-guide-renderer > div#sections > *:nth-child(n+2)
 www.youtube.com##ytd-guide-renderer > div#footer
 ! m.youtube.com (モバイル)
+! ホーム
+! channel page
+! 動画
+m.youtube.com##ytm-watch ytm-companion-slot
+m.youtube.com##ytm-watch ytm-item-section-renderer:has(ad-slot-renderer)
+m.youtube.com##ytm-watch ytm-item-section-renderer ytm-video-with-context-renderer:has(a[href*="/shorts/"i])
+m.youtube.com##ytm-watch ytm-item-section-renderer ytm-video-with-context-renderer:has(a[href*="&start_radio="i])
+m.youtube.com##ytm-watch ytm-item-section-renderer ytm-video-with-context-renderer:has(a[href*="&list="i])
+m.youtube.com##ytm-watch div.ytVideoMetadataCarouselViewModelCarouselContainer:has(yt-carousel-item-view-model[aria-label="コメント"i])
+m.youtube.com##ytm-custom-control div#player-control-overlay div.player-controls-background-container
