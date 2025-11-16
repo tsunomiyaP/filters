@@ -149,3 +149,4 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:i
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="にじさんじ切り抜き"i], [aria-label*="にじ切り抜き"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ストグラ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="Streamer"i]))
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="YouTube Movies"i]))
