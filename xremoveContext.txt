@@ -61,7 +61,7 @@ youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-rendere
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="甲斐田晴"i], [aria-label*="甲斐田"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="弦月藤士郎"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="長尾景"i]))
-youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="オリバー・エバンス"i]))
+youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="オリバー・エバンス"i], [aria-label*="オリバー"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="レオス・ヴィンセント"i], [aria-label*="レオス"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="ローレン・イロアス"i], [aria-label*="ローレン"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="四季凪アキラ"i]))
