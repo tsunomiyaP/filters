@@ -34,7 +34,7 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:i
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="七次元生徒会"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="月ノ美兎"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="渋谷ハジメ"i]))
-youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ギレザレン"i]))
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ギルザレン"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="剣持刀也"i], [aria-label*="剣持"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="伏見ガク"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is(:not([aria-label*="叶え"i])[aria-label*="叶"i], [aria-label*="Kanae Channel"i]))
