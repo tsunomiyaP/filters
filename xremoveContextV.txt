@@ -139,6 +139,7 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:i
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="コレコレ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="加藤純一"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="バキ童"i]))
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ゆゆうた"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ドズル社"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="QuizKnock"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ぽこピー"i], [aria-label*="ピーナッツくん"i]))
