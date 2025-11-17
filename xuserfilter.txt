@@ -54,7 +54,7 @@ x.com##div[data-testid="cellInnerDiv"i] .r-1867qdf:style(border-radius: 0px !imp
 ! リツイート
 x.com##div[data-testid="cellInnerDiv"i]:has(span[data-testid="socialContext"i])
 
-! www.youtube.com (PC) ublock
+! www.youtube.com (PC)
 ! ホーム
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] div[id="masthead-ad"i]:has(ytd-ad-slot-renderer)
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] > ytd-rich-grid-renderer ytd-statement-banner-renderer
