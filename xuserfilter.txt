@@ -59,6 +59,8 @@ x.com##div[data-testid="cellInnerDiv"i]:has(span[data-testid="socialContext"i])
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] div[id="masthead-ad"i]:has(ytd-ad-slot-renderer)
 www.youtube.com##[page-subtype="home"i] div[id="primary"i] > ytd-rich-grid-renderer ytd-statement-banner-renderer
 www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-item-renderer:has(ytd-ad-slot-renderer)
+www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-item-renderer:has(a[href*="/shorts/"i])
+www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-item-renderer:has(a[href*="&start_radio="i])
 www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-item-renderer:has(a[href*="&list="i])
 www.youtube.com##[page-subtype="home"i] div[id="contents"i] > ytd-rich-section-renderer:has(ytd-rich-shelf-renderer)
 ! 動画
@@ -67,19 +69,26 @@ www.youtube.com##ytd-watch-flexy div[id="panels"i] ytd-engagement-panel-section-
 www.youtube.com##ytd-watch-flexy div[id="related"i] > div[id="player-ads"i]
 www.youtube.com##ytd-watch-flexy div[id="contents"i] > ytd-ad-slot-renderer
 www.youtube.com##ytd-watch-flexy div[id="contents"i] > ytd-compact-video-renderer
+www.youtube.com##ytd-watch-flexy div[id="items"i] > yt-lockup-view-model:has(a[href*="/shorts/"i])
+www.youtube.com##ytd-watch-flexy div[id="items"i] > yt-lockup-view-model:has(a[href*="&start_radio="i])
+www.youtube.com##ytd-watch-flexy div[id="items"i] > yt-lockup-view-model:has(a[href*="&list="i])
 www.youtube.com##:is(div[class="html5-endscreen ytp-player-content videowall-endscreen"i], div[class*="ytp-ce-element"i], div[class="ytp-endscreen-content"i])
 www.youtube.com##div.ytp-fullscreen-grid
 ! 検索
 www.youtube.com##.style-scope.ytd-search ytd-ad-slot-renderer
 www.youtube.com##.style-scope.ytd-search grid-shelf-view-model
-www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has(a[href*="/shorts/"i])
 www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has([title*="#shorts"i])
+www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has(a[href*="/shorts/"i])
+www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has(a[href*="&start_radio="i])
+www.youtube.com##.style-scope.ytd-search ytd-video-renderer:has(a[href*="&list="i])
 www.youtube.com##.style-scope.ytd-search ytd-horizontal-card-list-renderer
 ! チャンネル
 www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has(ytd-channel-video-player-renderer)
 www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has(ytd-channel-featured-content-renderer)
-www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has(a[href*="/shorts/"i])
 www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has([title*="#shorts"i])
+www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has(a[href*="/shorts/"i])
+www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has(a[href*="&start_radio="i])
+www.youtube.com##[page-subtype="channels"i] ytd-item-section-renderer:has(a[href*="&list="i])
 www.youtube.com##[page-subtype="channels"i] yt-tab-shape[tab-title="ショート"i]
 ! サイドバー
 ! ショート系
