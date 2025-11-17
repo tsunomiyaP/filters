@@ -139,6 +139,7 @@ youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-rendere
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="コレコレ"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="加藤純一"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="バキ童"i]))
+youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="ゆゆうた"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="ドズル社"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="QuizKnock"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="ぽこピー"i], [aria-label*="ピーナッツくん"i]))
