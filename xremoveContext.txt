@@ -143,6 +143,7 @@ youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-rendere
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="ドズル社"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="QuizKnock"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="ぽこピー"i], [aria-label*="ピーナッツくん"i]))
+youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="SHAKA"i], [aria-label*="k4sen"i], [aria-label*="けんき"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="V最"i], [aria-label*="V祭"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="獅白杯"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="KZHCUP"i]))
