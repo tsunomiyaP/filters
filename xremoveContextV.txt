@@ -51,7 +51,7 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-co
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ベルモンド・バンデラス"i], [aria-label*="ベルモンド"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="夢追翔"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="三枝明那"i]))
-youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ましろ爻"i]))
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ましろ爻"i], [aria-label*="ましろ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="エクス・アルビオ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="加賀美ハヤト"i], [aria-label*="加賀美"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="シェリン・バーガンディ"i], [aria-label*="シェリン"i]))
