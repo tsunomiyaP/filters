@@ -68,6 +68,7 @@ www.youtube.com##ytd-mini-guide-renderer > div#items.ytd-mini-guide-renderer > y
 ! おすすめ
 www.youtube.com##ytd-guide-renderer > div#sections > *:nth-child(n+2)
 www.youtube.com##ytd-guide-renderer > div#footer
+! タブ
 youtube.com##:is(yt-tab-shape[tab-title="ショート"i])
 ! m.youtube.com (モバイル)
 ! ホーム
