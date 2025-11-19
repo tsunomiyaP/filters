@@ -64,7 +64,7 @@ www.youtube.com##ytd-watch-flexy :is(div#full-bleed-container:not(:has(div#playe
 ! 検索
 www.youtube.com##ytd-search :is(ytd-ad-slot-renderer, grid-shelf-view-model, ytd-shelf-renderer, ytd-video-renderer:has([title*="#shorts"i]), ytd-video-renderer:has(a[href*="/shorts/"i]), ytd-video-renderer:has(a[href*="&start_radio="i]), ytd-video-renderer:has(a[href*="&list="i]), ytd-horizontal-card-list-renderer)
 ! チャンネル
-www.youtube.com##[page-subtype="channels"i] :is(ytd-item-section-renderer:has(ytd-channel-video-player-renderer), ytd-item-section-renderer:has(ytd-channel-featured-content-renderer), ytd-item-section-renderer:has([title*="#shorts"i]), ytd-item-section-renderer:has(a[href*="/shorts/"i]), ytd-item-section-renderer:has(a[href*="&start_radio="i]), ytd-item-section-renderer:has(a[href*="&list="i]), yt-tab-shape[tab-title="ショート"i])
+www.youtube.com##[page-subtype="channels"i] :is(ytd-item-section-renderer:has(ytd-channel-video-player-renderer), ytd-item-section-renderer:has(ytd-channel-featured-content-renderer), ytd-item-section-renderer:has([title*="#shorts"i]), ytd-item-section-renderer:has(a[href*="/shorts/"i]), ytd-item-section-renderer:has(a[href*="&start_radio="i]), ytd-item-section-renderer:has(a[href*="&list="i]))
 ! サイドバー
 ! ショート系
 www.youtube.com##ytd-guide-section-renderer > div#items.ytd-guide-section-renderer > ytd-guide-entry-renderer > a#endpoint[title="ショート"i]
@@ -72,6 +72,7 @@ www.youtube.com##ytd-mini-guide-renderer > div#items.ytd-mini-guide-renderer > y
 ! おすすめ
 www.youtube.com##ytd-guide-renderer > div#sections > *:nth-child(n+2)
 www.youtube.com##ytd-guide-renderer > div#footer
+youtube.com##:is(yt-tab-shape[tab-title="ショート"i])
 ! m.youtube.com (モバイル)
 ! ホーム
 ! channel page
@@ -109,7 +110,6 @@ m.youtube.com##ytm-search ytm-compact-playlist-renderer
 m.youtube.com##ytm-search ytm-compact-radio-renderer
 m.youtube.com##ytm-search grid-shelf-view-model
 ! チャンネル
-m.youtube.com##yt-tab-shape[tab-title="ショート"i]
 m.youtube.com##div[class="tab-content"i]:is([tab-title="ホーム"], [tab-title="動画"], [tab-title="ライブ"]) :is(ytm-item-section-renderer:has(ytm-channel-featured-video-renderer), ytm-item-section-renderer:has(a[href*="/shorts/"i]), ytm-statement-banner-renderer, ytm-rich-item-renderer.is-in-first-col:has(ad-slot-renderer), ytm-rich-item-renderer:has(ytm-radio-renderer), ytm-rich-item-renderer:has(a[href*="/shorts/"i]), ytm-rich-item-renderer:has(a[href*="&start_radio="i]), ytm-rich-item-renderer:has(a[href*="&list="i]), ytm-rich-section-renderer)
 ! モバイル全般 ショートタブ
 m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-bar-item-tab.pivot-shorts)
