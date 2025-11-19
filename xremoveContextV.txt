@@ -132,7 +132,7 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-co
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ヒカキン"i], [aria-label*="HIKAKIN"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="はじめしゃちょー"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="東海オンエア"i]))
-youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="Fischer's"i]))
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="Fischer"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="赤髮のとも"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="キヨ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ガッチマン"i]))
