@@ -72,6 +72,7 @@ www.youtube.com##ytd-mini-guide-renderer > div#items.ytd-mini-guide-renderer > y
 ! おすすめ
 www.youtube.com##ytd-guide-renderer > div#sections > *:nth-child(n+2)
 www.youtube.com##ytd-guide-renderer > div#footer
+youtube.com##:is(div[role="tablist"i] > yt-tab-shape[tab-title="ホーム"i], div[role="tablist"i] > yt-tab-shape[tab-title="ショート"i], div.yt-tab-group-shape-wiz__slider, div.tabGroupShapeSlide)
 ! m.youtube.com (モバイル)
 ! ホーム
 ! channel page
