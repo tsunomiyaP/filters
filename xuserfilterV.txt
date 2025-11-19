@@ -93,7 +93,6 @@ m.youtube.com##ytm-search ytm-compact-channel-renderer
 m.youtube.com##ytm-search ytm-compact-playlist-renderer
 m.youtube.com##ytm-search ytm-compact-radio-renderer
 m.youtube.com##ytm-search grid-shelf-view-model
-! チャンネル
 ! 検索
 m.youtube.com##ytm-search ytm-universal-watch-card-renderer
 m.youtube.com##ytm-search ytm-horizontal-card-list-renderer
