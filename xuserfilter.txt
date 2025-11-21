@@ -1,6 +1,6 @@
 ! x.com ublock
 ! おすすめユーザー
-x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(:is(div[class="css-175oi2r r-1adg3ll r-1ny4l3l"])):not(:has(div[data-testid="trend"]))
+x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(article[class="css-175oi2r r-18u37iz r-1udh08x r-kpt88i r-19m1me0 r-o7ynqc r-6416eg r-1ny4l3l r-1loqt21"]:is(div[class="css-175oi2r r-1adg3ll r-1ny4l3l"])):not(:has(div[data-testid="trend"]))
 ! 広告 : プロモーション
 x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(div[class="css-175oi2r r-a1ub67"])
 ! x side bar moments
