@@ -73,8 +73,7 @@ www.youtube.com##ytd-mini-guide-renderer > div#items.ytd-mini-guide-renderer > y
 www.youtube.com##ytd-guide-renderer > div#sections > *:nth-child(n+2)
 www.youtube.com##ytd-guide-renderer > div#footer
 ! タブ
-youtube.com##:is(yt-tab-shape[tab-title="ショート"i])
-! m.youtube.com (モバイル)
+youtube.com##:is(yt-tab-shape[tab-title="ショート"i], div.tabGroupShapeSlider)
 ! ホーム、チャンネル
 m.youtube.com##div[class="tab-content"i]:is([tab-title="ホーム"i], [tab-title="動画"i], [tab-title="ライブ"i]) :is(ytm-item-section-renderer:has(ytm-channel-featured-video-renderer), ytm-item-section-renderer:has(a[href*="/shorts/"i]), ytm-statement-banner-renderer, ytm-rich-item-renderer.is-in-first-col:has(ad-slot-renderer), ytm-rich-item-renderer:has(ytm-radio-renderer), ytm-rich-item-renderer:has(a[href*="/shorts/"i]), ytm-rich-item-renderer:has(a[href*="&start_radio="i]), ytm-rich-item-renderer:has(a[href*="&list="i]), ytm-rich-section-renderer)
 ! 動画
