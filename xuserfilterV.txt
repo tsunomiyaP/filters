@@ -21,7 +21,7 @@ x.com##a[href="/i/monetization"i]
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
 ! 検索バー
-x.com##form[aria-label="検索"i] > div > div.r-sdzlij
+! x.com##form[aria-label="検索"i] > div > div.r-sdzlij:style(border-bottom-left-radius: 0px !important; border-bottom-right-radius: 0px !important; border-top-left-radius: 0px !important; border-top-right-radius: 0px !important;)
 ! トレンド
 x.com##[aria-label="タイムライン: 話題を検索"i] > div > div:nth-of-type(n+1):nth-of-type(-n+3)
 ! x.com##[aria-label="タイムライン: 話題を検索"i] [data-testid="cellInnerDiv"i]:is(:has([data-testid="trend"i] > div.css-175oi2r.r-16y2uox.r-1t982j2.r-1b3ntt7.r-bnwqim),:has([data-testid="UserAvatar-Container-unknown"i]))
