@@ -147,6 +147,7 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-co
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="QuizKnock"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ぽこピー"i], [aria-label*="ピーナッツくん"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="SHAKA"i], [aria-label*="k4sen"i], [aria-label*="けんき"i]))
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="狩野英孝"i], [aria-label*="EIKO"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="V最"i], [aria-label*="V祭"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="獅白杯"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="KZHCUP"i], [aria-label*="KZHカップ"i]))
