@@ -26,7 +26,7 @@ youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-co
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ゴールド・ブレット"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="オクタビオ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="クリムゾン・ルーズ"i]))
-youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="スバル"i]))
+youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="スバル"i], [aria-label*="常闇トワ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ROF-MAO"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="ChroNoiR"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(span[class*="yt-core-attributed-string"]):is([aria-label*="VOLTACTION"i]))
