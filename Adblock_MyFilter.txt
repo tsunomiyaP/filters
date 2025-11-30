@@ -1,5 +1,5 @@
 ! Title: 豆腐フィルタ - My
-! Homepage: http://tofukko.r.ribbon.to/abp.html
+! page    : http://tofukko.r.ribbon.to/abp.html
 ! Github  : https://github.com/tofukko/filter
 ! ublock 構文一部削除 - vivaldiが非対応のため
 !
