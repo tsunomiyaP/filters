@@ -4601,10 +4601,10 @@ doujinantena.top##.asmr18
 doujinantena.top##.tablink
 doujinantena.top##.home-h:has(> a[href^="https://stripchat.com/"])
 doujinantena.top##div[style$="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
-nyahentai.re##.asmr18
-nyahentai.re##.tablink
-nyahentai.re##.home-h:has(> a[href^="https://stripchat.com/"])
-nyahentai.re##div[style$="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
+nyahentai##.asmr18
+nyahentai##.tablink
+nyahentai##.home-h:has(> a[href^="https://stripchat.com/"])
+nyahentai##div[style$="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
 
 ! --- mozakin.com --- !
 !||mozakin.com/auto_updater/dti_get.php?
