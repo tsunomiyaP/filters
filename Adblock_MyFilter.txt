@@ -1,5 +1,5 @@
 ! Title: 豆腐フィルタ - My
-! page    : http://tofukko.r.ribbon.to/abp.html
+! Homepage: http://tofukko.r.ribbon.to/abp.html
 ! Github  : https://github.com/tofukko/filter
 ! ublock 構文一部削除 - vivaldiが非対応のため
 !
@@ -4604,7 +4604,7 @@ doujinantena.top##div[style$="width: 92%; height: 400px; margin: 0 auto 80px aut
 nyahentai##.asmr18
 nyahentai##.tablink
 nyahentai##.home-h:has(> a[href^="https://stripchat.com/"])
-nyahentai##div[style*="width: 300px; height: 250px;"]
+nyahentai##div > div[id^="bnc_ad_"]
 nyahentai##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
 
 ! --- mozakin.com --- !
