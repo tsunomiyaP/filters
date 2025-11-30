@@ -1,4 +1,4 @@
-! Title: 要素削除フィルタ - モバイル版
+! Title: 要素削除フィルタ - パソコン版
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer, div#items > ytd-grid-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="ホロスターズ"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer, div#items > ytd-grid-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="holostars"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer, div#items > ytd-grid-video-renderer):has(:is(a[class*="yt-lockup-metadata-view-model"], a[id*="video-title"]):is([aria-label*="花咲みやび"i]))
