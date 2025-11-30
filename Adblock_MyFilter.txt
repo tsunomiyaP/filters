@@ -1,8 +1,9 @@
-! Title: 豆腐フィルタ
+[Adblock Plus 2.0]
+! Title: 豆腐フィルタ - Re
 ! Homepage: http://tofukko.r.ribbon.to/abp.html
-! github https://github.com/tofukko/filter
 !
-! 最終更新 2025/12/01 - adguarg, ublock 書式削除
+! 最終更新 2025/11/21 13:15
+!
 
 ! 2025/04/17 2025年11月18日サ終
 ! https://blog.goo.ne.jp/info/close.html
@@ -1568,7 +1569,6 @@ digimart.net##div[class^="adBlock"]
 discogs.com##.ads-ad
 diskgarage.com##.ads
 diskgarage.com##.cm_ads
-dotpict.net##[id^="ads"]:upward(1)
 douga100ka.jp##.ad_index_main_base
 douga100ka.jp##.ad_item_head
 douga100ka.jp##.contents_ad01
@@ -1767,7 +1767,6 @@ gamingdeputy.com##.bottom-sticky-offset
 gamingdeputy.com##.header-banner-desktop
 gamingdeputy.com##[class^="ad-wrapper-parent-"]
 gardenstory.jp##.sponserd
-geartics.com#?#.text-center:first-child + .ads-double:last-child:upward(1)
 gendai.media##div[style="min-width:300px;min-height:250px"]
 gendai.media##div[style="min-width:468px;min-height:60px"]
 gendai.media##.in-article-ad-slot
@@ -1778,8 +1777,6 @@ gentosha-go.com###headbar
 gentosha-go.com###ggo_250_wrapper
 gentosha-go.com###sgo_250_wrapper
 gentosha-go.com##.side-banner
-gentosha-go.com##._popIn_recommend_article_ad:upward(1):remove()
-gentosha-go.com##._popIn_recommend_article_ad_reserved:upward(1):remove()
 getchu.com###rectangle
 getchu.com##.banner
 getnavi.jp##.ad
@@ -2146,7 +2143,6 @@ kuroyonhon.com###adbox
 kuroyonhon.com###commodity_ul
 kurukura.jp##.double-rectangle
 kyobun.co.jp##.kyobu-widget
-kyoko-np.net##div[style="width: 300px; height: 250px;"]:upward(.ad)
 kyounoryouri.jp###floating-banner
 last.fm##.full-bleed-ad-container
 last.fm##.sidebar-ad-container
@@ -2578,7 +2574,6 @@ qiita.com##.style-uaiz0z
 ! サイドバー広告分広げる
 ! logly
 qiita.com##[id^=logly-lif]
-qiita.com##[id^=logly-lif]:upward(2)
 qjweb.jp##.l-aside_ad
 qoly.jp##.ad
 qoly.jp##.banner
@@ -2656,7 +2651,6 @@ sabuibo.net###entry-list > .entry-block:first-child
 saga-s.co.jp##.m-ad
 sai-zen-sen.jp##.ad
 saitama-np.co.jp###ad_middle
-sakigake.jp###sakigake_pc_all_header:upward(1)
 sanabo.com##.add
 sanspo.com##.article__inline-gptAd
 sanspo.com##.billboard_250
@@ -2788,7 +2782,6 @@ tabi-labo.com##.dfp-article
 tabinobi.jp##.main-wrap > .detail-block ~ .thumb-block + .thumb-block
 tagindex.com###ads_top
 tagindex.com###post
-taittsuu.com#?##posts > div.post-wrap > a[href*="_ad_"][target="_blank"]:upward(1)
 taskle.jp##.ad
 taskle.jp##.ad-widget
 tbsradio.jp##.articles-single__article__ad__underarticle
@@ -2961,11 +2954,7 @@ www.ne.jp##:matches-path(/asahi/asame/shinbun/) a[href^="https://amzn.to/"]
 www.ne.jp##:matches-path(/asahi/asame/shinbun/) a[href^="https://www.amazon.co.jp/"][href*="asameshinbun-22"]
 www.ne.jp##:matches-path(/asahi/asame/shinbun/) img[width="920"][height="210"]
 www.ne.jp##:matches-path(/asahi/asame/shinbun/) img[width="218"][height="137"]
-www.ne.jp##:matches-path(/asahi/asame/shinbun/) h3[align="center"] > a[href^="https://www.amazon.co.jp/"]:upward(1)
-www.ne.jp##:matches-path(/asahi/asame/shinbun/) font:has-text(/今回イチオシ商品|－新商品|（Amazon）|Amazonコミックランキング/):upward(p)
-www.ne.jp##:matches-path(/asahi/asame/shinbun/) font[color="#0000FF"]:has-text(●):upward(p)
 www.ne.jp##:matches-path(/asahi/asame/shinbun/) td[bgcolor="#B0BCFF"] > div[align="left"] > [align="center"]
-www.ne.jp##:matches-path(/asahi/asame/shinbun/) p > font[size="-1"] > :is(a[href^="https://amzn.to/"], a[href^="https://www.amazon.co.jp/"]):upward(p)
 www-creators.com##.adsense
 x-feeder.info##div[style^="width: 300px; height: 250px"]
 x-feeder.info##div[style*="width: 728px; height: 90px"]
@@ -3414,7 +3403,6 @@ benesse.ne.jp##[style="min-height: 300px;"]
 ! https://github.com/uBlockOrigin/uAssets/issues/6886#issuecomment-608605317
 ! https://github.com/uBlockOrigin/uAssets/issues/12255
 ! https://github.com/uBlockOrigin/uAssets/issues/12505
-bing.com##[onclick^="ad_choice"]:upward(3)
 bing.com###b_results > li[style]:not([class])
 bing.com#?#.b_algo:has(.b_caption>*:matches-css-before(display:inline-block))
 bing.com##.ins_exp.tds
@@ -3425,7 +3413,6 @@ bing.com#@#.pa_sb
 bing.com##.b_restorableLink:remove()
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136118
 ! https://github.com/uBlockOrigin/uAssets/issues/16791
-bing.com##[mv-data^="Ads"]:has([href*="aclick"]):upward(.b_overlay)
 bing.com###pole:has-text(/Ads|Anzeigen/)
 bing.com##.ra_car_label:has-text(/Ads|Anzeigen/)
 
@@ -3986,12 +3973,6 @@ google.*##div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 google.*##div[jstcache] > a[href^="/aclk?"]
 google.*##div[role="navigation"] + c-wiz > div > .kxhcC
 google.*##div[role="navigation"] + c-wiz > script + div > .kxhcC
-www.google.*##.sh-sr__shop-result-group[data-hveid] .sh-sp__btn:matches-css(font-size: 13px):upward(.sh-sr__shop-result-group):has(a[href^="/aclk"][href$="adurl="])
-www.google.*##:not(:matches-path(/^/search\?.*tbm=shop|^/shopping/)) *:not([class^="sh-sr__shop-result-group"]) [href^="/aclk"][href$="adurl="]:upward(3)
-www.google.*##[href^="https://www.googleadservices.com/pagead/aclk?"][href$="adurl="]:upward(3)
-www.google.*##c-wiz div[data-hveid] > div > div > ul:has(> li[style="max-width:200px;"] > div > div[data-hveid] > a[href*="/aclk"]):upward(3)
-www.google.*##div.ellip > span:has-text(/^Ads?$/):upward(2)
-www.google.*##div[data-section-id] > a[href^="/aclk"][href*="placesheetAdFix="][href*="adurl="]:upward(1)
 www.google.*##:matches-path(/travel/hotels/) div[data-is-promoted="true"]
 
 ! thememazing .com broken page + other anti adb
@@ -4099,7 +4080,6 @@ nonno.hpplus.jp##.media-ad
 ! --- Hrs-Game --- !
 hrs-game.main.jp##[class^="ads_"]
 main-hrs-game.ssl-lolipop.jp##[class^="ads_"]
-123hrs.web.fc2.com##script[src^="http://adm.shinobi.jp/"]:only-child:upward(1)
 123hrs.web.fc2.com##[id^="rakuten_"]
 123hrs.web.fc2.com###menu > #a8 > li:last-child
 
@@ -4580,7 +4560,6 @@ minkabu.jp###ad1201_wrapper
 minkabu.jp##.ad_hide
 fx.minkabu.jp##.admodal
 fx.minkabu.jp##.gpt-ad
-cc.minkabu.jp#?#div[id^="cc_"] > div[id^="div-gpt-"]:upward(1)
 itf.minkabu.jp##.pageCon_ad
 ! 2025/10/12
 itf.minkabu.jp##.max-w-itf-pc-main > div.justify-around.min-w-182.min-h-12\.5.mt-14
@@ -4682,7 +4661,6 @@ msn.com##.ad-banner-wrapper
 msn.com##.bannerAdContainer-DS-EntryPoint1-1
 msn.com##.nativeadserversidecontentmodule
 msn.com##.sameoab_ad_container
-msn.com##div[class^="displayAds"]:upward(1)
 !news
 msn.com###div[id^="mrr-topad-"]
 msn.com##.consumption-page-banner-wrapper
@@ -4999,7 +4977,6 @@ www.pixiv.net###__next > div:only-child > div:nth-child(2) > div:nth-of-type(4):
 www.pixiv.net##div[style="height: 540px; opacity: 1;"]
 www.pixiv.net##main > section > div > div > figure + div:empty + div[style]
 www.pixiv.net##div[id^="adsdk--"]
-www.pixiv.net##div[style="display: block; width: 184px; height: 232px;"]:upward(1)
 ! プレミアムバナー
 www.pixiv.net##._premium-lead-function-banner
 comic.pixiv.net##.screen4\:hidden.bg-surface4.w-screen.h-\[100px\]
@@ -5375,8 +5352,6 @@ twicomi.com##.ads-reserve-area
 ||x.com^*/log.json
 ! プロモーション
 ! uBlock filters
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,x.com##[data-testid="trend"]:has-text(/Promoted|Gesponsert|Promocionado|Patrocinat|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสัมพันธ์|प्रचारित|বিজ্ঞাপিত|تشہیر شدہ|مُروَّج|تبلیغی|מקודם/):upward(1)
-twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion,x.com##div[style^="transform"] h2 > div[style^="-webkit-line-clamp"] > span:has-text(/^(?:Promoted Post|Promowany Post|Post promovat|プロモポスト)$/):upward(3)
 ! Easylist
 twitter.com,x.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
 
@@ -5698,6 +5673,7 @@ yomidr.yomiuri.co.jp##.thumbnail-ad
 ! --- youtube --- !
 ||google.co.jp/pagead/
 ||www.youtube.com/get_midroll_$domain=youtube.com
+||youtube.com/get_video_info?*adunit$~third-party
 
 /generate_204?$image
 ||youtube.com/api/stats/ads?
@@ -5707,7 +5683,6 @@ yomidr.yomiuri.co.jp##.thumbnail-ad
 youtube.com###masthead-ad
 youtube.com##ytd-ad-slot-renderer
 youtube.com##ytd-compact-promoted-video-renderer
-youtube.com##ytd-display-ad-renderer:upward(2)
 youtube.com##ytd-promoted-sparkles-web-renderer
 youtube.com##ytd-promoted-sparkles-text-search-renderer
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer
@@ -5830,8 +5805,6 @@ pornhub.*###relatedVideosCenter > .wrapVideoBlock
 ! https://github.com/uBlockOrigin/uAssets/issues/2482
 ! https://github.com/uBlockOrigin/uAssets/issues/4779
 ! https://github.com/uBlockOrigin/uAssets/issues/10052
-you-porn.com,youporn.*,youporngay.com,youpornru.com##[data-zone="underplayer_970x90"]:upward(1)
-you-porn.com,youporn.*,youporngay.com,youpornru.com##.ad-bottom-text:upward(3)
 you-porn.com,youporn.*,youporngay.com##.adLinkText
 you-porn.com,youporn.*,youporngay.com,youpornru.com##.adsbytrafficjunky
 you-porn.com,youporn.*,youpornru.com##.e8-column
@@ -6485,7 +6458,6 @@ nordot.app,news.jp##.right-bar-
 ! knshow.com
 	!@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=knshow.com
 	!@@||pagead2.googlesyndication.com/pagead/show_ads.js$script,domain=knshow.com
-	!knshow.com#@#script[src$="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]:first-child + .adsbygoogle + script:last-child:upward(1)
 	!knshow.com#@#.adsbygoogle
 
 ! musenboya.com
