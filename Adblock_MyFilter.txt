@@ -5698,7 +5698,6 @@ yomidr.yomiuri.co.jp##.thumbnail-ad
 ! --- youtube --- !
 ||google.co.jp/pagead/
 ||www.youtube.com/get_midroll_$domain=youtube.com
-||youtube.com/get_video_info?*adunit$~third-party
 
 /generate_204?$image
 ||youtube.com/api/stats/ads?
