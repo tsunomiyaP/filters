@@ -1,8 +1,9 @@
-[Adblock Plus 2.0]
-! Title: 豆腐フィルタ - Re
+! Title: 豆腐フィルタ - My
 ! Homepage: http://tofukko.r.ribbon.to/abp.html
+! Github  : https://github.com/tofukko/filter
+! ublock 構文一部削除 - vivaldiが非対応のため
 !
-! 最終更新 2025/11/21 13:15
+! 最終更新 2025/12/01
 !
 
 ! 2025/04/17 2025年11月18日サ終
