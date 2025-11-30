@@ -4604,7 +4604,7 @@ doujinantena.top##div[style$="width: 92%; height: 400px; margin: 0 auto 80px aut
 nyahentai.one##.asmr18
 nyahentai.one##.tablink
 nyahentai.one##.home-h:has(> a[href^="https://stripchat.com/"])
-nyahentai.one##div:not(:is(.post-list, .yarpp-related):has(> div[id^="bnc_ad_"])
+nyahentai.one##div:not(:is(.post-list, .yarpp-related)):has(> div[id^="bnc_ad_"])
 nyahentai.one##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
 
 ! --- mozakin.com --- !
