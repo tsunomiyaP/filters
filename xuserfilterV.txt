@@ -6,25 +6,25 @@ x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[a
 x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(div[class="css-175oi2r r-a1ub67"i])
 ! x side bar moments
 ! Grok
-x.com##a[href^="/i/grok"i]
+x.com##nav[role="navigation"] > a[href*="/i/grok"i]
 ! コミュニティ
-x.com##a[href$="/communities"i]
+x.com##nav[role="navigation"] > a[href$="/communities"i]
 ! プレミアム
-x.com##a[href^="/i/premium"i]
+x.com##nav[role="navigation"] > a[href*="/i/premium"i]
 ! 認証済み組織
-x.com##a[href^="/i/verified-orgs-signup"i]
+x.com##nav[role="navigation"] > a[href*="/i/verified-orgs-signup"i]
 ! 求人
-x.com##a[href^="/jobs"i]
+x.com##nav[role="navigation"] > a[href*="/jobs"i]
 ! チャット
-x.com##a[href^="/i/chat"i]
+x.com##nav[role="navigation"] > a[href*="/i/chat"i]
 ! 収益化
-x.com##a[href^="/i/monetization"i]
+x.com##nav[role="navigation"] > a[href*="/i/monetization"i]
 ! つながる
-x.com##a[href^="/i/connect_people"]
+x.com##nav[role="navigation"] > a[href*="/i/connect_people"]
 ! creator studio
-x.com##a[href^="/i/jf/creators/studio"]
+x.com##nav[role="navigation"] > a[href*="/i/jf/creators/studio"]
 ! 広告
-x.com##a[href*="ads.x.com/"]
+x.com##nav[role="navigation"] > a[href*="ads.x.com/"]
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
 ! 検索バー
