@@ -4604,6 +4604,7 @@ nyahentai.one##.asmr18
 nyahentai.one##.tablink
 nyahentai.one##.home-h:has(> a[href^="https://stripchat.com/"])
 nyahentai.one##div[id^="bnc_ad"]
+nyahentai.one##div[class$="ad-banner"]
 nyahentai.one##div[class$="-post-list"]:has(a[href*=".fans/"])
 nyahentai.com##div[style$="margin: -12px -11px;"];has(> div > iframe)
 nyahentai.one##div:not(:is(.post-list, .yarpp-related)):has(> div[id^="bnc_ad_"])
