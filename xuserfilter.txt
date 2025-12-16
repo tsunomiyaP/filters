@@ -10,7 +10,7 @@ x.com##a[href="/i/grok"i]
 ! コミュニティ
 x.com##a[href$="/communities"i]
 ! プレミアム
-x.com##a[href="/i/premium_sign_up"i]
+x.com##a[href="/i/premium"i]
 ! 認証済み組織
 x.com##a[href="/i/verified-orgs-signup"i]
 ! 求人
