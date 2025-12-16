@@ -21,10 +21,12 @@ x.com##nav[role="navigation"] > a[href*="/i/chat"i]
 x.com##nav[role="navigation"] > a[href*="/i/monetization"i]
 ! つながる
 x.com##nav[role="navigation"] > a[href*="/i/connect_people"]
+! プレミアム menu
+x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="/i/premium"i]
 ! creator studio
-x.com##nav[role="navigation"] > a[href*="/i/jf/creators/studio"]
+x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="/i/jf/creators/studio"]
 ! 広告
-x.com##nav[role="navigation"] > a[href*="ads.x.com/"]
+x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="ads.x.com/"]
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
 ! 検索バー
