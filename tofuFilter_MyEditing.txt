@@ -4585,33 +4585,6 @@ minnano-av.com##.bn250
 moeclo.ldblog.jp###main_head_ad
 
 ! --- momon-ga.com --- !
-||bance.jp^
-||creative.*/widgets/spot/
-||creative.*/widgets/v4/Universal?
-
-momon-ga.com##.asmr18
-momon-ga.com##.tablink
-momon-ga.com##.home-h:has(> a[href*="stripchat.com/"])
-momon-ga.com##div:has(> div > iframe)
-momon-ga.com##div[class$="ad-banner-area"]
-momon-ga.com##div[class$="-post-list"]:has(a[href*=".fans/"])
-momon-ga.com##div[id^="bnc_ad"][style="display: inline;"])
-momon-ga.com##div.post-list > div[id^="bnc_ad"]
-momon-ga.com##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
-momon-ga.com##div:has(> div > div > div[class*="Ad_contents"])
-momon-ga.com##div[style*="background-color: #fff;"]
-doujinantena.top##.asmr18
-doujinantena.top##.asmr18
-doujinantena.top##.tablink
-doujinantena.top##.home-h:has(> a[href*="stripchat.com/"])
-doujinantena.top##div:has(> div > iframe)
-doujinantena.top##div[class$="ad-banner-area"]
-doujinantena.top##div[class$="-post-list"]:has(a[href*=".fans/"])
-doujinantena.top##div[id^="bnc_ad"][style="display: inline;"])
-doujinantena.top##div.post-list > div[id^="bnc_ad"]
-doujinantena.top##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
-doujinantena.top##div:has(> div > div > div[class*="Ad_contents"])
-doujinantena.top##div[style*="background-color: #fff;"]
 
 ! --- mozakin.com --- !
 !||mozakin.com/auto_updater/dti_get.php?
