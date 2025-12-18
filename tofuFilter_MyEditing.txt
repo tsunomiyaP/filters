@@ -4587,14 +4587,14 @@ moeclo.ldblog.jp###main_head_ad
 ! --- momon-ga.com --- !
 nyahentai.one##.asmr18
 nyahentai.one##.tablink
-nyahentai.one##div.home-h:has(> a[href*="stripchat.com/"])
-nyahentai.one##div:has(> div > iframe)
+nyahentai.one##div.home-h:has(a[href*="stripchat.com/"])
+nyahentai.one##div:not([class]):has(iframe)
 nyahentai.one##div[class$="ad-banner-area"]
 nyahentai.one##div[class$="-post-list"]:has(a[href*=".fans/"])
 nyahentai.one##div[id^="bnc_ad"][style="display: inline;"])
 nyahentai.one##div.post-list > div[id^="bnc_ad"]
-nyahentai.one##div:has(> div[id^="bnc_ad"]):not([class])
-nyahentai.one##div:has(> div > div > div[class*="Ad_contents"])
+nyahentai.one##div:not([class]):has(div[id^="bnc_ad"])
+nyahentai.one##div#main > div:has(div[class*="Ad_contents"])
 
 ! --- mozakin.com --- !
 !||mozakin.com/auto_updater/dti_get.php?
