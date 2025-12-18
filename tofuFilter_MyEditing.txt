@@ -4589,8 +4589,6 @@ moeclo.ldblog.jp###main_head_ad
 ||creative.*/widgets/spot/
 ||creative.*/widgets/v4/Universal?
 
-##.home-h:has(+ div[style^="max-width: 1"][style$="background-color: #fff;"])
-##div[style^="max-width: 1"][style*="00px; width: 92%; height: 400px; margin: 0 auto "][style$="0px auto; background-color: #fff;"]
 momon-ga.com###menu-pr
 momon-ga.com##.asmr18
 momon-ga.com##.tablink
@@ -4602,7 +4600,7 @@ momon-ga.com##div[id^="bnc_ad"][style="display: inline;"])
 momon-ga.com##div.post-list > div[id^="bnc_ad"]
 momon-ga.com##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
 momon-ga.com##div:has(> div > div > div[class*="Ad_contents"])
-momon-ga.com##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
+momon-ga.com##div[style*="background-color: #fff;"]
 nyahentai.one###menu-pr
 nyahentai.one##.asmr18
 nyahentai.one##.tablink
@@ -4614,7 +4612,7 @@ nyahentai.one##div[id^="bnc_ad"][style="display: inline;"])
 nyahentai.one##div.post-list > div[id^="bnc_ad"]
 nyahentai.one##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
 nyahentai.one##div:has(> div > div > div[class*="Ad_contents"])
-nyahentai.one##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
+nyahentai.one##div[style*="background-color: #fff;"]
 doujinantena.top###menu-pr
 doujinantena.top##.asmr18
 doujinantena.top##.asmr18
@@ -4627,7 +4625,7 @@ doujinantena.top##div[id^="bnc_ad"][style="display: inline;"])
 doujinantena.top##div.post-list > div[id^="bnc_ad"]
 doujinantena.top##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
 doujinantena.top##div:has(> div > div > div[class*="Ad_contents"])
-doujinantena.top##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
+doujinantena.top##div[style*="background-color: #fff;"]
 
 ! --- mozakin.com --- !
 !||mozakin.com/auto_updater/dti_get.php?
