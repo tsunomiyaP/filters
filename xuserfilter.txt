@@ -71,7 +71,7 @@ www.youtube.com##ytd-watch-flexy :is(div#full-bleed-container:not(:has(div#playe
 ! 検索
 www.youtube.com##ytd-search :is(ytd-ad-slot-renderer, ytd-channel-renderer, grid-shelf-view-model, ytd-shelf-renderer, ytd-video-renderer:has([title*="#shorts"i]), ytd-video-renderer:has(a[href*="/shorts/"i]), ytd-video-renderer:has(a[href*="&start_radio="i]), ytd-video-renderer:has(a[href*="&list="i]), ytd-horizontal-card-list-renderer)
 ! チャンネル
-www.youtube.com##[page-subtype="channels"i] :is(ytd-item-section-renderer:has(ytd-channel-video-player-renderer), ytd-item-section-renderer:has(ytd-channel-featured-content-renderer), ytd-item-section-renderer:has([title*="#shorts"i]), ytd-item-section-renderer:has(a[href*="/shorts/"i]), ytd-item-section-renderer:has(a[href*="&start_radio="i]), ytd-item-section-renderer:has(a[href*="&list="i]))
+www.youtube.com##[page-subtype="channels"i] :is(ytd-item-section-renderer:has(ytd-channel-video-player-renderer), ytd-item-section-renderer:has(ytd-channel-featured-content-renderer), ytd-item-section-renderer:has([title*="#shorts"i]), ytd-item-section-renderer:has(a[href*="/shorts/"i]), ytd-item-section-renderer:has(a[href*="&start_radio="i]))
 ! サイドバー
 ! ショート系
 www.youtube.com##ytd-guide-section-renderer > div#items.ytd-guide-section-renderer > ytd-guide-entry-renderer > a#endpoint[title="ショート"i]
