@@ -4593,7 +4593,7 @@ nyahentai.one##div[class$="ad-banner-area"]
 nyahentai.one##div[class$="-post-list"]:has(a[href*=".fans/"])
 nyahentai.one##div[id^="bnc_ad"][style="display: inline;"])
 nyahentai.one##div.post-list > div[id^="bnc_ad"]
-nyahentai.one##div:not([class]):has(> div[id^="bnc_ad"])
+nyahentai.one##div:has(> div[id^="bnc_ad"]):not([class])
 nyahentai.one##div:has(> div > div > div[class*="Ad_contents"])
 
 ! --- mozakin.com --- !
