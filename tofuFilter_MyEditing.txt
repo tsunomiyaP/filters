@@ -4589,7 +4589,6 @@ moeclo.ldblog.jp###main_head_ad
 ||creative.*/widgets/spot/
 ||creative.*/widgets/v4/Universal?
 
-momon-ga.com###menu-pr
 momon-ga.com##.asmr18
 momon-ga.com##.tablink
 momon-ga.com##.home-h:has(> a[href^="https://stripchat.com/"])
@@ -4601,7 +4600,6 @@ momon-ga.com##div.post-list > div[id^="bnc_ad"]
 momon-ga.com##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
 momon-ga.com##div:has(> div > div > div[class*="Ad_contents"])
 momon-ga.com##div[style*="background-color: #fff;"]
-nyahentai.one###menu-pr
 nyahentai.one##.asmr18
 nyahentai.one##.tablink
 nyahentai.one##.home-h:has(> a[href^="https://stripchat.com/"])
@@ -4613,7 +4611,6 @@ nyahentai.one##div.post-list > div[id^="bnc_ad"]
 nyahentai.one##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
 nyahentai.one##div:has(> div > div > div[class*="Ad_contents"])
 nyahentai.one##div[style*="background-color: #fff;"]
-doujinantena.top###menu-pr
 doujinantena.top##.asmr18
 doujinantena.top##.asmr18
 doujinantena.top##.tablink
