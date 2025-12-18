@@ -4599,7 +4599,8 @@ momon-ga.com##div#main > div:has(iframe[src*="&campaignId"])
 momon-ga.com##div[class$="ad-banner-area"]
 momon-ga.com##div[class$="-post-list"]:has(a[href*=".fans/"])
 momon-ga.com##div[id^="bnc_ad"][style="display: inline;"])
-momon-ga.com##div:has(> [id^="bnc_ad"]:not([style="display: inline;"]))
+momon-ga.com##div.post-list > div[id^="bnc_ad"]
+momon-ga.com##div:not(.post-list):has(> div[id^="bnc_ad"])
 momon-ga.com##div:has(> div > div > div[class*="Ad_contents"])
 momon-ga.com##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
 nyahentai.one###menu-pr
@@ -4610,7 +4611,8 @@ nyahentai.one##div#main > div:has(iframe[src*="&campaignId"])
 nyahentai.one##div[class$="ad-banner-area"]
 nyahentai.one##div[class$="-post-list"]:has(a[href*=".fans/"])
 nyahentai.one##div[id^="bnc_ad"][style="display: inline;"])
-nyahentai.one##div:has(> [id^="bnc_ad"]:not([style="display: inline;"]))
+nyahentai.one##div.post-list > div[id^="bnc_ad"]
+nyahentai.one##div:not(.post-list):has(> div[id^="bnc_ad"])
 nyahentai.one##div:has(> div > div > div[class*="Ad_contents"])
 nyahentai.one##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
 doujinantena.top###menu-pr
@@ -4622,7 +4624,8 @@ doujinantena.top##div#main > div:has(iframe[src*="&campaignId"])
 doujinantena.top##div[class$="ad-banner-area"]
 doujinantena.top##div[class$="-post-list"]:has(a[href*=".fans/"])
 doujinantena.top##div[id^="bnc_ad"][style="display: inline;"])
-doujinantena.top##div:has(> [id^="bnc_ad"]:not([style="display: inline;"]))
+doujinantena.top##div.post-list > div[id^="bnc_ad"]
+doujinantena.top##div:not(.post-list):has(> div[id^="bnc_ad"])
 doujinantena.top##div:has(> div > div > div[class*="Ad_contents"])
 doujinantena.top##div[style*="width: 92%; height: 400px; margin: 0 auto 80px auto; background-color: #fff;"]
 
