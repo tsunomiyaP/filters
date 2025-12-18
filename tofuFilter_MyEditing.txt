@@ -4585,6 +4585,18 @@ minnano-av.com##.bn250
 moeclo.ldblog.jp###main_head_ad
 
 ! --- momon-ga.com --- !
+nyahentai.re##.asmr18
+nyahentai.re##.tablink
+nyahentai.re##.home-h:has(> a[href*="stripchat.com/"])
+nyahentai.re##div:has(> div > iframe)
+nyahentai.re##div[class$="ad-banner-area"]
+nyahentai.re##div[class$="-post-list"]:has(a[href*=".fans/"])
+nyahentai.re##div[id^="bnc_ad"][style="display: inline;"])
+nyahentai.re##div.post-list > div[id^="bnc_ad"]
+nyahentai.re##div:not(:is(.home-h, .post-list)):has(> div[id^="bnc_ad"])
+nyahentai.re##div:has(> div > div > div[class*="Ad_contents"])
+nyahentai.re##div[style*="background-color: #fff;"]
+
 
 ! --- mozakin.com --- !
 !||mozakin.com/auto_updater/dti_get.php?
