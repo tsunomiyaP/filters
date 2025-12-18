@@ -4595,6 +4595,7 @@ momon-ga.com###menu-pr
 momon-ga.com##.asmr18
 momon-ga.com##.tablink
 momon-ga.com##.home-h:has(> a[href^="https://stripchat.com/"])
+momon-ga.com##div#main > div:has(iframe[src*="&campaignId"])
 momon-ga.com##div[class$="ad-banner-area"]
 momon-ga.com##div[class$="-post-list"]:has(a[href*=".fans/"])
 momon-ga.com##div[id^="bnc_ad"][style="display: inline;"])
@@ -4605,6 +4606,7 @@ nyahentai.one###menu-pr
 nyahentai.one##.asmr18
 nyahentai.one##.tablink
 nyahentai.one##.home-h:has(> a[href^="https://stripchat.com/"])
+nyahentai.one##div#main > div:has(iframe[src*="&campaignId"])
 nyahentai.one##div[class$="ad-banner-area"]
 nyahentai.one##div[class$="-post-list"]:has(a[href*=".fans/"])
 nyahentai.one##div[id^="bnc_ad"][style="display: inline;"])
@@ -4616,6 +4618,7 @@ doujinantena.top##.asmr18
 doujinantena.top##.asmr18
 doujinantena.top##.tablink
 doujinantena.top##.home-h:has(> a[href^="https://stripchat.com/"])
+doujinantena.top##div#main > div:has(iframe[src*="&campaignId"])
 doujinantena.top##div[class$="ad-banner-area"]
 doujinantena.top##div[class$="-post-list"]:has(a[href*=".fans/"])
 doujinantena.top##div[id^="bnc_ad"][style="display: inline;"])
