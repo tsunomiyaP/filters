@@ -8,11 +8,11 @@
 ! --- momon-ga.com --- !
 nyahentai.one##.asmr18
 nyahentai.one##.tablink
-nyahentai.one##div.home-h:has(a[href*="stripchat.com/"])
+nyahentai.one##div.home-h:has(a[href^="https://stripchat.com/"])
 nyahentai.one##div:not([class]):has(iframe)
 nyahentai.one##div[class$="ad-banner-area"]
 nyahentai.one##div[class$="-post-list"]:has(a[href*=".fans/"])
 nyahentai.one##div[id^="bnc_ad"][style="display: inline;"])
 nyahentai.one##div.post-list > div[id^="bnc_ad"]
 nyahentai.one##div:not([class]):has(div[id^="bnc_ad"])
-nyahentai.one##div#main > div:has(div[class*="Ad_contents"])
+nyahentai.one##div[id="main"] > div:has(div[class*="Ad_contents"])
