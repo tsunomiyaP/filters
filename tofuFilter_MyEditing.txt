@@ -4603,6 +4603,7 @@ momon-ga.com##div:not(:is(.post-list, .yarpp-related)):has(> div[id^="bnc_ad_"])
 momon-ga.com##div:not(:is(.post-list, .yarpp-related)):has(> div > div > div[class*="Ad_contents"])
 momon-ga.com##div[style^="width: 300px; height: 250px; margin: 0 auto 40px auto;"]
 momon-ga.com##div[style$="background-color: #fff;"]:has(> iframe[src*="/widgets/"])
+momon-ga.com##div[style$="background-color: rgb(255, 255, 255);"]:has(> iframe[src*="/widgets/"])
 nyahentai.one###menu-pr
 nyahentai.one##.asmr18
 nyahentai.one##.tablink
@@ -4616,6 +4617,7 @@ nyahentai.one##div:not(:is(.post-list, .yarpp-related)):has(> div > div > div[cl
 nyahentai.one##div[style^="width: 300px; height: 250px; margin: 0 auto 40px auto;"]
 nyahentai.one##div[style^="max-width: 480px; max-height: 500px; overflow: hidden; margin: 0 auto 30px auto;"]
 nyahentai.one##div[style$="background-color: #fff;"]:has(> iframe[src*="/widgets/"])
+nyahentai.one##div[style$="background-color: rgb(255, 255, 255);"]:has(> iframe[src*="/widgets/"])
 
 ! --- mozakin.com --- !
 !||mozakin.com/auto_updater/dti_get.php?
