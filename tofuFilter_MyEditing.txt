@@ -4590,7 +4590,7 @@ moeclo.ldblog.jp###main_head_ad
 ||creative.*/widgets/v4/Universal?
 
 ##.home-h:has(+ div[style^="max-width: 1"][style$="background-color: #fff;"])
-##div[style^="max-width: 1"][style*="00px; width: 92%; height: 400px; margin: 0 auto "][style$="0px auto; background-color: #fff;"]
+##div[style$="margin: 0 auto; background-color: #fff;"]
 momon-ga.com###menu-pr
 momon-ga.com##.asmr18
 momon-ga.com##.tablink
