@@ -4600,6 +4600,7 @@ momon-ga.com##div[class$="ad-banner-area"]
 momon-ga.com##div[class$="-post-list"]:has(a[href*=".fans/"])
 momon-ga.com##div[style$="margin: -12px -11px;"]:has(> div > iframe)
 momon-ga.com##div:not(:is(.post-list, .yarpp-related)):has(> div[id^="bnc_ad_"])
+momon-ga.com##div:not(:is(.post-list, .yarpp-related)):has(> div > div > div[class*="Ad_contents"])
 momon-ga.com##div[style^="width: 300px; height: 250px; margin: 0 auto 40px auto;"]
 nyahentai.one###menu-pr
 nyahentai.one##.asmr18
@@ -4610,6 +4611,7 @@ nyahentai.one##div[class$="ad-banner-area"]
 nyahentai.one##div[class$="-post-list"]:has(a[href*=".fans/"])
 nyahentai.com##div[style$="margin: -12px -11px;"]:has(> div > iframe)
 nyahentai.one##div:not(:is(.post-list, .yarpp-related)):has(> div[id^="bnc_ad_"])
+nyahentai.one##div:not(:is(.post-list, .yarpp-related)):has(> div > div > div[class*="Ad_contents"])
 nyahentai.one##div[style^="width: 300px; height: 250px; margin: 0 auto 40px auto;"]
 
 ! --- mozakin.com --- !
