@@ -7,26 +7,37 @@ x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[a
 ! x side bar moments
 ! Grok
 x.com##nav[role="navigation"] > a[href*="/i/grok"i]
+x.com##div[role="dialog"] div:has(> a[href*="/i/grok"i])
 ! コミュニティ
 x.com##nav[role="navigation"] > a[href$="/communities"i]
+x.com##div[role="dialog"] div:has(> a[href$="/communities"i])
 ! プレミアム
 x.com##nav[role="navigation"] > a[href*="/i/premium"i]
+x.com##div[role="dialog"] div:has(> a[href*="/i/premium"i])
 ! 認証済み組織
 x.com##nav[role="navigation"] > a[href*="/i/verified-orgs-signup"i]
+x.com##div[role="dialog"] div:has(> a[href*="/i/verified-orgs-signup"i])
 ! 求人
 x.com##nav[role="navigation"] > a[href*="/jobs"i]
+x.com##div[role="dialog"] div:has(> a[href*="/jobs"i])
 ! チャット
 x.com##nav[role="navigation"] > a[href*="/i/chat"i]
+x.com##div[role="dialog"] div:has(> a[href*="/i/chat"i])
 ! 収益化
 x.com##nav[role="navigation"] > a[href*="/i/monetization"i]
+x.com##div[role="dialog"] div:has(> a[href*="/i/monetization"i])
 ! つながる
-x.com##nav[role="navigation"] > a[href*="/i/connect_people"]
+x.com##nav[role="navigation"] > a[href*="/i/connect_people"i]
+x.com##div[role="dialog"] div:has(> a[href*="/i/connect_people"i])
 ! プレミアム menu
 x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="/i/premium"i]
+x.com##div[role="dialog"] div:has(> a[href*="/i/premium"i])
 ! creator studio
-x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="/i/jf/creators/studio"]
+x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="/i/jf/creators/studio"i]
+x.com##div[role="dialog"] div:has(> a[href="/i/jf/creators/studio"i])
+
 ! 広告
-x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="ads.x.com/"]
+x.com##div[role="menu"] div[data-testid="Dropdown"] a[href*="ads.x.com/"i]
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
 ! 検索バー
