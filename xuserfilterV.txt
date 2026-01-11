@@ -29,7 +29,8 @@ x.com##div[role="dialog"i] div:has(> a[href*="/i/monetization"i])
 ! つながる
 x.com##nav[role="navigation"i] > a[href*="/i/connect_people"i]
 x.com##div[role="dialog"i] div:has(> a[href*="/i/connect_people"i])
-! プレミアム menu
+! menu
+! プレミアム
 x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href*="/i/premium"i]
 x.com##div[role="dialog"i] div:has(> a[href*="/i/premium"i])
 ! ビジネス
@@ -41,6 +42,9 @@ x.com##div[role="dialog"i] div:has(> a[href="/i/jf/creators/studio"i])
 ! 広告
 x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href*="ads.x.com/"i]
 x.com##div[role="dialog"i] div:has(> a[href*="ads.x.com/"i])
+! header
+! サインアップ
+x.com##div[role="heading"i] div[data-testid="TopNavBar"i] a[href="/i/premium_sign_up"i]
 
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
