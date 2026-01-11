@@ -43,8 +43,8 @@ x.com##div[role="dialog"i] div:has(> a[href$="/i/verified-orgs-signup"i])
 x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href$="/i/jf/creators/studio"i]
 x.com##div[role="dialog"i] div:has(> a[href$="/i/jf/creators/studio"i])
 ! 広告
-x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href^="ads.x.com/"i]
-x.com##div[role="dialog"i] div:has(> a[href^="ads.x.com/"i])
+x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href*="ads.x.com/"i]
+x.com##div[role="dialog"i] div:has(> a[href*="ads.x.com/"i])
 ! header
 ! プレミアム サインアップ
 x.com##div[role="heading"i] div[data-testid="TopNavBar"i] div:has(> div > a[href$="/i/premium_sign_up"i])
