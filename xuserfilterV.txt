@@ -11,9 +11,9 @@ x.com##div[role="dialog"i] div:has(> a[href$="/i/grok"i])
 ! コミュニティ
 x.com##nav[role="navigation"i] > a[href$="/communities"i]
 x.com##div[role="dialog"i] div:has(> a[href$="/communities"i])
-! プレミアム
-x.com##nav[role="navigation"i] > a[href$="/i/premium"i]
-x.com##div[role="dialog"i] div:has(> a[href$="/i/premium"i])
+! プレミアム サインアップ
+x.com##nav[role="navigation"i] > a[href$="/i/premium_sign_up"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/premium_sign_up"i])
 ! 認証済み組織
 x.com##nav[role="navigation"i] > a[href$="/i/verified-orgs-signup"i]
 x.com##div[role="dialog"i] div:has(> a[href$="/i/verified-orgs-signup"i])
@@ -33,9 +33,9 @@ x.com##div[role="dialog"i] div:has(> a[href$="/i/monetization"i])
 x.com##nav[role="navigation"i] > a[href$="/i/connect_people"i]
 x.com##div[role="dialog"i] div:has(> a[href$="/i/connect_people"i])
 ! menu
-! プレミアム
-x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href$="/i/premium"i]
-x.com##div[role="dialog"i] div:has(> a[href$="/i/premium"i])
+! プレミアム サインアップ
+x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href$="/i/premium_sign_up"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/premium_sign_up"i])
 ! ビジネス
 x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href$="/i/verified-orgs-signup"i]
 x.com##div[role="dialog"i] div:has(> a[href$="/i/verified-orgs-signup"i])
@@ -46,7 +46,7 @@ x.com##div[role="dialog"i] div:has(> a[href$="/i/jf/creators/studio"i])
 x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href^="ads.x.com/"i]
 x.com##div[role="dialog"i] div:has(> a[href^="ads.x.com/"i])
 ! header
-! サインアップ
+! プレミアム サインアップ
 x.com##div[role="heading"i] div[data-testid="TopNavBar"i] div:has(> div > a[href$="/i/premium_sign_up"i])
 
 ! サイドバー
