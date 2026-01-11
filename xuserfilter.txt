@@ -6,45 +6,48 @@ x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[a
 x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(div[class="css-175oi2r r-a1ub67"i])
 ! x side bar moments
 ! Grok
-x.com##nav[role="navigation"i] > a[href*="/i/grok"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/grok"i])
+x.com##nav[role="navigation"i] > a[href$="/i/grok"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/grok"i])
 ! コミュニティ
 x.com##nav[role="navigation"i] > a[href$="/communities"i]
 x.com##div[role="dialog"i] div:has(> a[href$="/communities"i])
-! プレミアム
-x.com##nav[role="navigation"i] > a[href*="/i/premium"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/premium"i])
+! プレミアム サインアップ
+x.com##nav[role="navigation"i] > a[href$="/i/premium_sign_up"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/premium_sign_up"i])
 ! 認証済み組織
-x.com##nav[role="navigation"i] > a[href*="/i/verified-orgs-signup"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/verified-orgs-signup"i])
+x.com##nav[role="navigation"i] > a[href$="/i/verified-orgs-signup"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/verified-orgs-signup"i])
 ! 求人
-x.com##nav[role="navigation"i] > a[href*="/jobs"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/jobs"i])
-! チャット
-x.com##nav[role="navigation"i] > a[href*="/i/chat"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/chat"i])
-! 収益化
-x.com##nav[role="navigation"i] > a[href*="/i/monetization"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/monetization"i])
-! つながる
-x.com##nav[role="navigation"i] > a[href*="/i/connect_people"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/connect_people"i])
-! menu
-! プレミアム
-x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href*="/i/premium"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/premium"i])
-! ビジネス
-x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href*="/i/verified-orgs-signup"i]
-x.com##div[role="dialog"i] div:has(> a[href*="/i/verified-orgs-signup"i])
+x.com##nav[role="navigation"i] > a[href$="/jobs"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/jobs"i])
 ! creator studio
-x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href*="/i/jf/creators/studio"i]
-x.com##div[role="dialog"i] div:has(> a[href="/i/jf/creators/studio"i])
+x.com##nav[role="navigation"i] > a[href$="/i/jf/creators/studio"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/jf/creators/studio"i])
+! チャット
+x.com##nav[role="navigation"i] > a[href$="/i/chat"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/chat"i])
+! 収益化
+x.com##nav[role="navigation"i] > a[href$="/i/monetization"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/monetization"i])
+! つながる
+x.com##nav[role="navigation"i] > a[href$="/i/connect_people"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/connect_people"i])
+! menu
+! プレミアム サインアップ
+x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href$="/i/premium_sign_up"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/premium_sign_up"i])
+! ビジネス
+x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href$="/i/verified-orgs-signup"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/verified-orgs-signup"i])
+! creator studio
+x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href$="/i/jf/creators/studio"i]
+x.com##div[role="dialog"i] div:has(> a[href$="/i/jf/creators/studio"i])
 ! 広告
 x.com##div[role="menu"i] div[data-testid="Dropdown"i] a[href*="ads.x.com/"i]
 x.com##div[role="dialog"i] div:has(> a[href*="ads.x.com/"i])
 ! header
-! サインアップ
-x.com##div[role="heading"i] div[data-testid="TopNavBar"i] a[href*="/i/premium_sign_up"i]
+! プレミアム サインアップ
+x.com##div[data-testid="TopNavBar"i] div[class="css-175oi2r r-1pz39u2 r-1777fci r-1sp3mco r-obd0qt r-1baxesd r-1t2qqvi r-16y2uox r-1wbh5a2"]:has(a[href$="/i/premium_sign_up"i])
 
 ! サイドバー
 x.com##[aria-label="トレンド"i] > div > div:not(:has(form[aria-label="検索"i]))
