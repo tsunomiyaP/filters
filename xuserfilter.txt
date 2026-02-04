@@ -5,7 +5,7 @@ x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[a
 ! 広告 : プロモーション
 x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(div[class="css-175oi2r r-a1ub67"i])
 ! 話題を検索
-x.com##div[aria-label="タイムライン: 話題を検索"i]:not(:has(> div > div > :nth-child(30):last-child)))
+x.com##div[aria-label="タイムライン: 話題を検索"i]:not(:has(> div > div > :nth-child(29):last-child)))
 ! x side bar moments
 ! Grok
 x.com##nav[role="navigation"i] > a[href$="/i/grok"i]
