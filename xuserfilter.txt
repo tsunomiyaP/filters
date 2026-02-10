@@ -7,6 +7,7 @@ x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[a
 ! 話題を検索
 ! x.com##div[aria-label="タイムライン: 話題を検索"i] > div:not(:has(> :nth-child(33):last-child))
 x.com##div[aria-label="ホームタイムライン"i] > div:has(div[role="presentation"i] > a[href$="/for_you"i][aria-selected="true"i]) ~ div:has(div[aria-label="タイムライン: 話題を検索"i])
+x.com##div#react-root > div > div > div#layers:has(div[role="presentation"i] > a[href$="/for_you"i][aria-selected="true"i]) ~ div[dir="ltr"i]:has(div[aria-label="タイムライン: 話題を検索"i])
 ! x side bar moments
 ! Grok
 x.com##nav[role="navigation"i] > a[href$="/i/grok"i]
