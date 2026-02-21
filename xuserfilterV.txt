@@ -1,7 +1,7 @@
 ! Title: xYoutube 非表示フィルタ - モバイル版
 ! x.com
 ! おすすめユーザー
-x.com##div:is([aria-label^="タイムライン: "i]:not(:is([aria-label*="通知"i], [aria-label*="フォロー"i], [aria-label*="フォロワー"i])), [aria-label$="さんのポスト"i]) > div > div[data-testid="cellInnerDiv"i]:not(:has(:is(article[data-testid="tweet"i], div[data-testid="trend"i], li[role="listitem"])))
+x.com##div:is([aria-label^="タイムライン: "i]:not(:is([aria-label*="通知"i], [aria-label*="フォロー"i], [aria-label*="フォロワー"i], [aria-label*="ミュート"i], [aria-label*="ブロック"i])), [aria-label$="さんのポスト"i]) > div > div[data-testid="cellInnerDiv"i]:not(:has(:is(article[data-testid="tweet"i], div[data-testid="trend"i], li[role="listitem"])))
 ! 広告 : プロモーション
 x.com##div:is([aria-label="タイムライン: ホームタイムライン"i],[aria-label$="さんのポスト"i],[aria-label="タイムライン: 話題を検索"i],[aria-label="タイムライン: タイムラインを検索"i]) > div > div[data-testid="cellInnerDiv"i]:has(div[class="css-175oi2r r-2pydbh"i] > div[class="css-175oi2r r-1awozwy r-18u37iz r-1ey881g r-1wtj0ep"i] > div[class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-1tl8opc r-1b43r93 r-14yzgew r-16dba41"i])
 ! 話題を検索
