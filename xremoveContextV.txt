@@ -1,4 +1,4 @@
-! Title: 要素削除フィルタ - モバイル版
+! Title: コンテンツ要素削除フィルタ - モバイル版
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(div.details, div.YtmCompactMediaItemMetadata)):has(:is([href*="holostars"i], [aria-label*="ホロスターズ"i], [aria-label*="holostars"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(div.details, div.YtmCompactMediaItemMetadata)):has(:is([href*="oozorasubaru"i], [aria-label*="スバル"i], [href*="sakuramiko"i], [aria-label*="さくらみこ"i], [aria-label*="みこち"i], [aria-label*="常闇トワ"i]))
 youtube.com##:is(ytm-rich-item-renderer, ytm-video-with-context-renderer, ytm-compact-video-renderer):has(:is(div.details, div.YtmCompactMediaItemMetadata)):has(:is(:is([aria-label*="にじ"i], [aria-label*="niji"i]) :is([aria-label*="社長"i], [aria-label*="アッキーナ"i], [aria-label*="エビオ"i], [aria-label*="かなかな"i], [aria-label*="ズハ"i], [aria-label*="やしきず"i], [aria-label*="ベルさん"i], [aria-label*="ふわっち"i])))
