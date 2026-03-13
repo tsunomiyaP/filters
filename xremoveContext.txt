@@ -1,4 +1,4 @@
-! Title: 要素削除フィルタ - パソコン版
+! Title: コンテンツ要素削除フィルタ - パソコン版
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer, div#items > ytd-grid-video-renderer):has(:is(div#meta, div.yt-lockup-view-model__metadata)):has(:is([href*="holostars"i], [aria-label*="ホロスターズ"i], [aria-label*="holostars"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer, div#items > ytd-grid-video-renderer):has(:is(div#meta, div.yt-lockup-view-model__metadata)):has(:is([href*="oozorasubaru"i], [aria-label*="スバル"i], [href*="sakuramiko"i], [aria-label*="さくらみこ"i], [aria-label*="みこち"i], [aria-label*="常闇トワ"i]))
 youtube.com##:is(ytd-rich-item-renderer, yt-lockup-view-model, ytd-video-renderer, div#items > ytd-grid-video-renderer):has(:is(div#meta, div.yt-lockup-view-model__metadata)):has(:is(:is([aria-label*="にじ"i], [aria-label*="niji"i]) :is([aria-label*="社長"i], [aria-label*="アッキーナ"i], [aria-label*="エビオ"i], [aria-label*="かなかな"i], [aria-label*="ズハ"i], [aria-label*="やしきず"i], [aria-label*="ベルさん"i], [aria-label*="ふわっち"i])))
