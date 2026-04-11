@@ -73,6 +73,8 @@ x.com##a[href="/explore/tabs/entertainment"i]
 x.com##[data-testid="GrokDrawer"i]
 ! DM
 x.com##[data-testid="DMDrawer"i]
+! header user icon
+x.com##header[role="banner"i] div:has(> div > button[aria-label="アカウントメニュー"i])
 ! ツイート 内 Grok
 x.com##div[data-testid="cellInnerDiv"i] button[aria-label^="Grok"i]
 ! 枠 radius
