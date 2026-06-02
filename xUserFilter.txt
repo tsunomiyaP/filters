@@ -100,7 +100,7 @@ www.youtube.com##ytd-guide-section-renderer > div#items.ytd-guide-section-render
 www.youtube.com##ytd-mini-guide-renderer > div#items.ytd-mini-guide-renderer > ytd-mini-guide-entry-renderer > a#endpoint[title="ショート"i]
 ! おすすめ
 www.youtube.com##ytd-guide-renderer > div#sections > ytd-guide-section-renderer > div#items > ytd-guide-entry-renderer > a[title="ショート"]
-www.youtube.com##ytd-guide-renderer > div#sections > ytd-guide-section-renderer:nth-child(n+2)
+www.youtube.com##ytd-guide-renderer > div#sections > ytd-guide-section-renderer:nth-child(n+3)
 www.youtube.com##ytd-guide-renderer > div#footer
 ! タブ
 youtube.com##:is(yt-tab-shape[tab-title="ショート"i], div.tabGroupShapeSlider)
