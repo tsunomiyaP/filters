@@ -113,3 +113,4 @@ m.youtube.com##ytm-search :is(ytm-universal-watch-card-renderer, ytm-horizontal-
 ! ext
 m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-bar-item-tab.pivot-shorts)
 m.youtube.com##header.mobile-topbar-header div.mobile-topbar-header-sign-in-button
+m.youtube.com##button-view-model:has(button[aria-label="報告"i])
