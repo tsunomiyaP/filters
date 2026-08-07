@@ -82,8 +82,9 @@ x.com##div[data-testid="cellInnerDiv"i] button[aria-label^="Grok"i]
 ! x.com##form[aria-label="検索"i] > div > div.r-sdzlij:style(border-bottom-left-radius: 0px !important; border-bottom-right-radius: 0px !important; border-top-left-radius: 0px !important; border-top-right-radius: 0px !important;)
 ! リツイート
 x.com##div[data-testid="cellInnerDiv"i]:has(span[data-testid="socialContext"i])
-! ツイート内　もっと見つける
-x.com##div[aria-label="タイムライン: 会話"i] > div > :is(div[data-testid="cellInnerDiv"i]:has(> div[class="css-175oi2r r-1adg3ll r-1ny4l3l"i] h2[role="heading"i]), div[data-testid="cellInnerDiv"i]:has(> div[class="css-175oi2r r-1adg3ll r-1ny4l3l"i] h2[role="heading"i]) ~ div[data-testid="cellInnerDiv"i])
+! ツイート内　もっと見つける (区間A ~ 区間B)
+x.com##div[aria-label="タイムライン: 会話"i] div[data-testid="cellInnerDiv"i]:has(h2[dir="auto"i]) ~ div[data-testid="cellInnerDiv"i]
+
 
 ! www.youtube.com (PC)
 www.youtube.com##div[id="masthead-ad"i]:has(ytd-ad-slot-renderer)
