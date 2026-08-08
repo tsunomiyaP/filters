@@ -83,7 +83,7 @@ x.com##div[data-testid="cellInnerDiv"i] button[aria-label^="Grok"i]
 ! リツイート
 x.com##div[data-testid="cellInnerDiv"i]:has(span[data-testid="socialContext"i])
 ! ツイート内　もっと見つける 区間A ~ 区間Bまで削除
-x.com##div[aria-label="タイムライン: 会話"i] div[data-testid="cellInnerDiv"i]:has(> div[class="css-g5y9jx r-1adg3ll r-1ny4l3l"i]:empty):nth-child(1) ~ div[data-testid="cellInnerDiv"i]
+x.com##div[aria-label="タイムライン: 会話"i] div[data-testid="cellInnerDiv"i]:has(> div[class="css-g5y9jx r-1adg3ll r-1ny4l3l"i]:empty):nth-child(2) ~ div[data-testid="cellInnerDiv"i]
 
 
 ! www.youtube.com (PC)
