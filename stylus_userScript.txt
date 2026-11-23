@@ -49,8 +49,7 @@
   div[data-testid="cellInnerDiv" i] div:has(> div[data-testid="Tweet-User-Avatar" i]),
   a[href*="/grok.com/" i], div[data-testid="GrokDrawer" i], button[aria-label*="Grok"], button[aria-label="プロフィールの要約" i], button[aria-label="チャット" i],
   img[src*="twimg.com/emoji" i],
-  /**
-  ext area stylus
+  /** ext area stylus */
   div[aria-label="トレンド" i] > div > div:not(:has(form[aria-label="検索" i])),
   /** side bar disable */
   nav[role="navigation" i] > a[href$="/i/grok" i],
