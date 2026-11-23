@@ -1,4 +1,4 @@
-/* ==UserStyle==
+/** ==UserStyle==
 @name           style-MY
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
