@@ -44,7 +44,7 @@
   *
   { box-shadow: none !important; text-shadow: none !important; transition-duration: 0.5s !important; animation-duration: 0.5s !important; }
   article[data-testid="tweet" i]
-  { content-visibility: auto; contain-intrinsic-size: 250px 250px !important; }
+  { content-visibility: auto; contain-intrinsic-size: 250px auto !important; }
   div[data-testid="cellInnerDiv" i] .r-1867qdf
   { border-radius: 0px !important; }
   form[aria-label="検索" i] > div > div.r-sdzlij
