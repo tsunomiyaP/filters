@@ -40,7 +40,7 @@
 
 @-moz-document domain("x.com") {
   *
-  { backdrop-filter: none !important; }
+  { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; }
   div[data-testid="cellInnerDiv" i] .r-1867qdf
   { border-radius: 0px !important; }
   form[aria-label="検索" i] > div > div.r-sdzlij
